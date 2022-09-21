@@ -8,6 +8,21 @@
 
 The list of awesome mixup augmentation methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/docs/en/awesome_mixups) in [OpenMixup](https://github.com/Westlake-AI/openmixup). We first summarize fundermental mixup methods from two aspects: *sample mixup policy* and *label mixup policy*. Then, we summarize mixup techniques used in downstream tasks. Currently, we are working on a survey of mixup methods.
 
+**Table of Contents**
+
+- [Introduction](#Introduction)
+- [Fundermental Methods](#Fundermental-Methods)
+  - [Sample Mixup Methods](#Sample-Mixup-Methods)
+    - [Pre-defined Policies](#Pre-defined-Policies)
+    - [Saliency-guided Policies](#Saliency-guided-Policies)
+  - [Label Mixup Methods](#Label-Mixup-Methods)
+- [Mixup for Self-supervised Learning](#Mixup-for-Self-supervised-Learning)
+- [Mixup for Semi-supervised Learning](#Mixup-for-Semi-supervised-Learning)
+- [Analysis of Mixup](#Analysis-of-Mixup)
+- [Survey](#Survey)
+- [Contribution](#Contribution)
+- [Related Project](#Related-Project)
+
 
 ## Fundermental Methods
 
@@ -127,7 +142,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - TokenMix: Rethinking Image Mixing for Data Augmentation in Vision Transformers. [[ECCV'2022](https://arxiv.org/abs/2207.08409)] [[code](https://github.com/Sense-X/TokenMix)]
 
 
-## Mixup Methods for Self-supervised Learning
+## Mixup for Self-supervised Learning
 
 * **MixCo**: Sungnyun Kim, Gihun Lee, Sangmin Bae, Se-Young Yun.
    - MixCo: Mix-up Contrastive Learning for Visual Representation. [[NIPSW'2020](https://arxiv.org/abs/2010.06300)] [[code](https://github.com/Lee-Gihun/MixCo-Mixup-Contrast)]
@@ -159,13 +174,15 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - It Takes Two to Tango: Mixup for Deep Metric Learning. [[ICLR'2022](https://arxiv.org/abs/2106.04990)] [[code](https://github.com/billpsomas/Metrix_ICLR22)]
 * **SDMP**: Sucheng Ren, Huiyu Wang, Zhengqi Gao, Shengfeng He, Alan Yuille, Yuyin Zhou, Cihang Xie.
    - A Simple Data Mixing Prior for Improving Self-Supervised Learning. [[CVPR'2022](https://arxiv.org/abs/2206.07692)] [[code](https://github.com/oliverrensu/sdmp)]
+* **ScaleMix**: Xiao Wang, Haoqi Fan, Yuandong Tian, Daisuke Kihara, Xinlei Chen.
+   - On the Importance of Asymmetry for Siamese Representation Learning. [[CVPR'2022](https://arxiv.org/abs/2204.00613)] [[code](https://github.com/facebookresearch/asym-siam)]
 * **VLMixer**: Teng Wang, Wenhao Jiang, Zhichao Lu, Feng Zheng, Ran Cheng, Chengguo Yin, Ping Luo.
    - VLMixer: Unpaired Vision-Language Pre-training via Cross-Modal CutMix. [[ICML'2022](https://arxiv.org/abs/2206.08919)]
 * **CropMix**: Junlin Han, Lars Petersson, Hongdong Li, Ian Reid.
    - CropMix: Sampling a Rich Input Distribution via Multi-Scale Cropping. [[ArXiv'2022](https://arxiv.org/abs/2205.15955)] [[code](https://github.com/JunlinHan/CropMix)]
 
 
-## Mixup Methods for Semi-supervised Learning
+## Mixup for Semi-supervised Learning
 
 * **MixMatch**: David Berthelot, Nicholas Carlini, Ian Goodfellow, Nicolas Papernot, Avital Oliver, Colin Raffel.
    - MixMatch: A Holistic Approach to Semi-Supervised Learning. [[NIPS'2019](https://arxiv.org/abs/1905.02249)] [[code](https://github.com/google-research/mixmatch)]
@@ -208,5 +225,5 @@ Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin19
 ## Related Project
 
 - [OpenMixup](https://github.com/Westlake-AI/openmixup): CAIRI Supervised, Semi- and Self-Supervised Visual Representation Learning Toolbox and Benchmark.
-- [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/docs/en/awesome_mixups): Awesome list of mixup augmentation methods for supervised, semi-, and self-supervised visual representation learning.
+- [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/tree/main/docs/en/awesome_mixups): Awesome list of mixup augmentation methods for supervised, semi-, and self-supervised visual representation learning.
 - [awesome-mixup](https://github.com/demoleiwang/awesome-mixup): A collection of awesome papers about mixup.
