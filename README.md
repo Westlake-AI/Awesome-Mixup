@@ -116,7 +116,8 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - ScoreNet: Learning Non-Uniform Attention and Augmentation for Transformer-Based Histopathological Image Classification. [[Arxiv'2022](https://arxiv.org/abs/2202.07570)]
 * **RecursiveMix**: Lingfeng Yang, Xiang Li, Borui Zhao, Renjie Song, Jian Yang.
    - RecursiveMix: Mixed Learning with History. [[NIPS'2022](https://arxiv.org/abs/2203.06844)] [[code](https://github.com/implus/RecursiveMix-pytorch)]
-
+* **SciMix** Rémy Sun, Clément Masson, Gilles Hénaff, Nicolas Thome, Matthieu Cord.
+   - Swapping Semantic Contents for Mixing Images. [[ICPR'2022](https://arxiv.org/abs/2205.10158)]
 
 ### Label Mixup Methods
 
@@ -170,8 +171,14 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - Mix-up Self-Supervised Learning for Contrast-agnostic Applications. [[ICME'2021](https://arxiv.org/abs/2204.00901)]
 * **CLIM**: Hao Li, Xiaopeng Zhang, Hongkai Xiong.
    - Center-wise Local Image Mixture For Contrastive Representation Learning. [[BMVC'2021](https://arxiv.org/abs/2011.02697)]
+* **Mixup** Xin Zhang, Minho Jin, Roger Cheng, Ruirui Li, Eunjung Han, Andreas Stolcke.
+   - Contrastive-mixup Learning for Improved Speaker Verification. [[ICASSP'2022](https://arxiv.org/abs/2202.10672)]
 * **Metrix**: Shashanka Venkataramanan, Bill Psomas, Ewa Kijak, Laurent Amsaleg, Konstantinos Karantzalos, Yannis Avrithis.
    - It Takes Two to Tango: Mixup for Deep Metric Learning. [[ICLR'2022](https://arxiv.org/abs/2106.04990)] [[code](https://github.com/billpsomas/Metrix_ICLR22)]
+* **ProGCL** Jun Xia, Lirong Wu, Ge Wang, Jintao Chen, Stan Z.Li.
+   - ProGCL: Rethinking Hard Negative Mining in Graph Contrastive Learning. [[ICML'2022](https://arxiv.org/abs/2110.02027)] [[code](https://github.com/junxia97/ProGCL)]
+* **M-Mix** Shaofeng Zhang, Meng Liu, Junchi Yan, Hengrui Zhang, Lingxiao Huang, Pinyan Lu, Xiaokang Yang.
+   - M-Mix: Generating Hard Negatives via Multi-sample Mixing for Contrastive Learning. [[KDD'2022](https://sherrylone.github.io/assets/KDD22_M-Mix.pdf)] [[code](https://github.com/Sherrylone/m-mix)]
 * **SDMP**: Sucheng Ren, Huiyu Wang, Zhengqi Gao, Shengfeng He, Alan Yuille, Yuyin Zhou, Cihang Xie.
    - A Simple Data Mixing Prior for Improving Self-Supervised Learning. [[CVPR'2022](https://arxiv.org/abs/2206.07692)] [[code](https://github.com/oliverrensu/sdmp)]
 * **ScaleMix**: Xiao Wang, Haoqi Fan, Yuandong Tian, Daisuke Kihara, Xinlei Chen.
@@ -198,6 +205,10 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 
 ## Analysis of Mixup
 
+* Sunil Thulasidasan, Gopinath Chennupati, Jeff Bilmes, Tanmoy Bhattacharya, Sarah Michalak.
+   - On Mixup Training: Improved Calibration and Predictive Uncertainty for Deep Neural Networks. [[NIPS'2019](https://arxiv.org/abs/1905.11001)] [[code](https://github.com/paganpasta/onmixup)]
+* Luigi Carratino, Moustapha Cissé, Rodolphe Jenatton, Jean-Philippe Vert.
+   - On Mixup Regularization. [[ArXiv'2020](https://arxiv.org/abs/2006.06049)] [[code](https://arxiv.org/abs/2006.06049)]
 * Muthu Chidambaram, Xiang Wang, Yuzheng Hu, Chenwei Wu, Rong Ge.
    - Towards Understanding the Data Dependency of Mixup-style Training. [[ICLR'2022](https://openreview.net/pdf?id=ieNJYujcGDO)] [[code](https://github.com/2014mchidamb/Mixup-Data-Dependency)]
 * Linjun Zhang, Zhun Deng, Kenji Kawaguchi, James Zou.
@@ -206,6 +217,8 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 
 ## Survey
 
+* Humza Naveed.
+   - Survey: Image Mixing and Deleting for Data Augmentation. [[ArXiv'2021](https://arxiv.org/abs/2106.07085)]
 * An overview of mixing augmentation methods and augmentation strategies.
    - A Survey on Masked Autoencoder for Self-supervised Learning in Vision and Beyond. [[Artificial Intelligence Review'2022](https://link.springer.com/article/10.1007/s10462-022-10227-z)]
 
