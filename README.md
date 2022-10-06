@@ -118,6 +118,8 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - RecursiveMix: Mixed Learning with History. [[NIPS'2022](https://arxiv.org/abs/2203.06844)] [[code](https://github.com/implus/RecursiveMix-pytorch)]
 * **SciMix** Rémy Sun, Clément Masson, Gilles Hénaff, Nicolas Thome, Matthieu Cord.
    - Swapping Semantic Contents for Mixing Images. [[ICPR'2022](https://arxiv.org/abs/2205.10158)]
+* **TransformMix** Anonymous.
+   - TransformMix: Learning Transformation and Mixing Strategies for Sample-mixing Data Augmentation. [[OpenReview'2022](https://openreview.net/forum?id=-1vpxBUtP0B)]
 
 ### Label Mixup Methods
 
@@ -208,7 +210,9 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * Sunil Thulasidasan, Gopinath Chennupati, Jeff Bilmes, Tanmoy Bhattacharya, Sarah Michalak.
    - On Mixup Training: Improved Calibration and Predictive Uncertainty for Deep Neural Networks. [[NIPS'2019](https://arxiv.org/abs/1905.11001)] [[code](https://github.com/paganpasta/onmixup)]
 * Luigi Carratino, Moustapha Cissé, Rodolphe Jenatton, Jean-Philippe Vert.
-   - On Mixup Regularization. [[ArXiv'2020](https://arxiv.org/abs/2006.06049)] [[code](https://arxiv.org/abs/2006.06049)]
+   - On Mixup Regularization. [[ArXiv'2020](https://arxiv.org/abs/2006.06049)]
+* Linjun Zhang, Zhun Deng, Kenji Kawaguchi, Amirata Ghorbani, James Zou.
+   - How Does Mixup Help With Robustness and Generalization? [[ICLR'2021](https://arxiv.org/abs/2010.04819)]
 * Muthu Chidambaram, Xiang Wang, Yuzheng Hu, Chenwei Wu, Rong Ge.
    - Towards Understanding the Data Dependency of Mixup-style Training. [[ICLR'2022](https://openreview.net/pdf?id=ieNJYujcGDO)] [[code](https://github.com/2014mchidamb/Mixup-Data-Dependency)]
 * Linjun Zhang, Zhun Deng, Kenji Kawaguchi, James Zou.
