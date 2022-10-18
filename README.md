@@ -10,18 +10,19 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 
 **Table of Contents**
 
-- [Introduction](#Introduction)
-- [Fundermental Methods](#Fundermental-Methods)
-  - [Sample Mixup Methods](#Sample-Mixup-Methods)
-    - [Pre-defined Policies](#Pre-defined-Policies)
-    - [Saliency-guided Policies](#Saliency-guided-Policies)
-  - [Label Mixup Methods](#Label-Mixup-Methods)
-- [Mixup for Self-supervised Learning](#Mixup-for-Self-supervised-Learning)
-- [Mixup for Semi-supervised Learning](#Mixup-for-Semi-supervised-Learning)
-- [Analysis of Mixup](#Analysis-of-Mixup)
-- [Survey](#Survey)
-- [Contribution](#Contribution)
-- [Related Project](#Related-Project)
+- [Awesome-Mixup](#awesome-mixup)
+  - [Introduction](#introduction)
+  - [Fundermental Methods](#fundermental-methods)
+    - [Sample Mixup Methods](#sample-mixup-methods)
+      - [**Pre-defined Policies**](#pre-defined-policies)
+      - [**Saliency-guided Policies**](#saliency-guided-policies)
+    - [Label Mixup Methods](#label-mixup-methods)
+  - [Mixup for Self-supervised Learning](#mixup-for-self-supervised-learning)
+  - [Mixup for Semi-supervised Learning](#mixup-for-semi-supervised-learning)
+  - [Analysis of Mixup](#analysis-of-mixup)
+  - [Survey](#survey)
+  - [Contribution](#contribution)
+  - [Related Project](#related-project)
 
 
 ## Fundermental Methods
@@ -133,16 +134,22 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - Mixup Without Hesitation. [[Pattern Recognition'2022](https://arxiv.org/abs/2101.04342)] [[code](https://github.com/yuhao318/mwh)]
 * **CAMixup**: Yeming Wen, Ghassen Jerfel, Rafael Muller, Michael W. Dusenberry, Jasper Snoek, Balaji Lakshminarayanan, Dustin Tran.
    - Combining Ensembles and Data Augmentation can Harm your Calibration. [[ICLR'2021](https://arxiv.org/abs/2010.09875)] [[code](https://github.com/google/edward2/tree/main/experimental/marginalization_mixup)]
+* **TokenLabeling**: Zihang Jiang, Qibin Hou, Li Yuan, Daquan Zhou, Yujun Shi, Xiaojie Jin, Anran Wang, Jiashi Feng.
+   - Combining Ensembles and Data Augmentation can Harm your Calibration. [[NIPS'2021](https://arxiv.org/abs/2104.10858)] [[code](https://github.com/zihangJiang/TokenLabeling)]
 * **Saliency Grafting**: Joonhyung Park, June Yong Yang, Jinwoo Shin, Sung Ju Hwang, Eunho Yang.
    - Saliency Grafting: Innocuous Attribution-Guided Mixup with Calibrated Label Mixing. [[AAAI'2022](https://arxiv.org/abs/2112.08796)]
 * **TransMix**: Jie-Neng Chen, Shuyang Sun, Ju He, Philip Torr, Alan Yuille, Song Bai.
    - TransMix: Attend to Mix for Vision Transformers. [[CVPR'2022](https://arxiv.org/abs/2111.09833)] [[code](https://github.com/Beckschen/TransMix)]
-* **GenLabel**: Yeming Wen, Ghassen Jerfel, Rafael Muller, Michael W. Dusenberry, Jasper Snoek, Balaji Lakshminarayanan, Dustin Tran.
+* **GenLabel**: Jy-yong Sohn, Liang Shang, Hongxu Chen, Jaekyun Moon, Dimitris Papailiopoulos, Kangwook Lee.
    - GenLabel: Mixup Relabeling using Generative Models. [[ArXiv'2022](https://arxiv.org/abs/2201.02354)]
 * **DecoupleMix**: Zicheng Liu, Siyuan Li, Ge Wang, Cheng Tan, Lirong Wu, Stan Z. Li.
    - Decoupled Mixup for Data-efficient Learning. [[Arxiv'2022](https://arxiv.org/abs/2203.10761)] [[code](https://github.com/Westlake-AI/openmixup)]
 * **TokenMix**: Jihao Liu, Boxiao Liu, Hang Zhou, Hongsheng Li, Yu Liu.
    - TokenMix: Rethinking Image Mixing for Data Augmentation in Vision Transformers. [[ECCV'2022](https://arxiv.org/abs/2207.08409)] [[code](https://github.com/Sense-X/TokenMix)]
+* **TokenMixup**: Hyeong Kyu Choi, Joonmyung Choi, Hyunwoo J. Kim.
+   - TokenMix: Rethinking Image Mixing for Data Augmentation in Vision Transformers. [[NIPS'2022](https://arxiv.org/abs/2210.07562)] [[code](https://github.com/mlvlab/TokenMixup)]
+* **TL-Align**: Han Xiao, Wenzhao Zheng, Zheng Zhu, Jie Zhou, Jiwen Lu.
+   - TokenMix: Rethinking Image Mixing for Data Augmentation in Vision Transformers. [[arXiv'2022](https://arxiv.org/abs/2210.06455)] [[code](https://github.com/Euphoria16/TL-Align)]
 
 
 ## Mixup for Self-supervised Learning
