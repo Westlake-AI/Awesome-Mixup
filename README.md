@@ -131,7 +131,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * **MetaMixup**: Zhijun Mai, Guosheng Hu, Dexiong Chen, Fumin Shen, Heng Tao Shen.
    - Metamixup: Learning adaptive interpolation policy of mixup with metalearning. [[TNNLS'2021](https://arxiv.org/abs/1908.10059)]
 * **mWH**: Hao Yu, Huanyu Wang, Jianxin Wu.
-   - Mixup Without Hesitation. [[Pattern Recognition'2022](https://arxiv.org/abs/2101.04342)] [[code](https://github.com/yuhao318/mwh)]
+   - Mixup Without Hesitation. [[ICIG'2022](https://arxiv.org/abs/2101.04342)] [[code](https://github.com/yuhao318/mwh)]
 * **CAMixup**: Yeming Wen, Ghassen Jerfel, Rafael Muller, Michael W. Dusenberry, Jasper Snoek, Balaji Lakshminarayanan, Dustin Tran.
    - Combining Ensembles and Data Augmentation can Harm your Calibration. [[ICLR'2021](https://arxiv.org/abs/2010.09875)] [[code](https://github.com/google/edward2/tree/main/experimental/marginalization_mixup)]
 * **TokenLabeling**: Zihang Jiang, Qibin Hou, Li Yuan, Daquan Zhou, Yujun Shi, Xiaojie Jin, Anran Wang, Jiashi Feng.
@@ -147,9 +147,9 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * **TokenMix**: Jihao Liu, Boxiao Liu, Hang Zhou, Hongsheng Li, Yu Liu.
    - TokenMix: Rethinking Image Mixing for Data Augmentation in Vision Transformers. [[ECCV'2022](https://arxiv.org/abs/2207.08409)] [[code](https://github.com/Sense-X/TokenMix)]
 * **TokenMixup**: Hyeong Kyu Choi, Joonmyung Choi, Hyunwoo J. Kim.
-   - TokenMix: Rethinking Image Mixing for Data Augmentation in Vision Transformers. [[NIPS'2022](https://arxiv.org/abs/2210.07562)] [[code](https://github.com/mlvlab/TokenMixup)]
+   - TokenMixup: Efficient Attention-guided Token-level Data Augmentation for Transformers. [[NIPS'2022](https://arxiv.org/abs/2210.07562)] [[code](https://github.com/mlvlab/TokenMixup)]
 * **TL-Align**: Han Xiao, Wenzhao Zheng, Zheng Zhu, Jie Zhou, Jiwen Lu.
-   - TokenMix: Rethinking Image Mixing for Data Augmentation in Vision Transformers. [[arXiv'2022](https://arxiv.org/abs/2210.06455)] [[code](https://github.com/Euphoria16/TL-Align)]
+   - Token-Label Alignment for Vision Transformers. [[arXiv'2022](https://arxiv.org/abs/2210.06455)] [[code](https://github.com/Euphoria16/TL-Align)]
 
 
 ## Mixup for Self-supervised Learning
