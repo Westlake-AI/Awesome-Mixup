@@ -22,6 +22,8 @@ The list of awesome mixup augmentation methods is summarized in chronological or
   - [Analysis of Mixup](#analysis-of-mixup)
   - [Survey](#survey)
   - [Contribution](#contribution)
+  - [License](#license)
+  - [Acknowledgement](#acknowledgement)
   - [Related Project](#related-project)
 
 
@@ -42,7 +44,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204563766-4a49b4d9-fb1e-46d7-8443-bff37a527ee1.png" /></p>
 * **CutMix**: Sangdoo Yun, Dongyoon Han, Seong Joon Oh, Sanghyuk Chun, Junsuk Choe, Youngjoon Yoo.
    - CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features. [[ICCV'2019](https://arxiv.org/abs/1905.04899)] [[code](https://github.com/clovaai/CutMix-PyTorch)]
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204564166-49707535-43f9-4d15-af89-d1a5a302db24.png" /></p>
+   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204564166-49707535-43f9-4d15-af89-d1a5a302db24.png" /></p>
 * **ManifoldMix**: Vikas Verma, Alex Lamb, Christopher Beckham, Amir Najafi, Ioannis Mitliagkas, David Lopez-Paz, Yoshua Bengio.
    - Manifold Mixup: Better Representations by Interpolating Hidden States. [[ICML'2019](https://arxiv.org/abs/1806.05236)] [[code](https://github.com/vikasverma1077/manifold_mixup)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204565193-c5416185-ed98-4b86-bc7c-f5b6cc2f839b.png" /></p>
@@ -106,6 +108,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy and Out Distribution Robustness. [[NIPS'2022](https://arxiv.org/abs/2206.14502)] [[code](https://github.com/FrancescoPinto/RegMixup)]
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204571630-e8407bd7-ca27-44de-baca-5d88ca2004a6.png" /></p>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 #### **Saliency-guided Policies**
 
@@ -164,6 +167,8 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - TransformMix: Learning Transformation and Mixing Strategies for Sample-mixing Data Augmentation. [[OpenReview'2022](https://openreview.net/forum?id=-1vpxBUtP0B)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204575385-0b2d7470-0ffd-4b6b-977b-ef28b1617954.png" /></p>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ### Label Mixup Methods
 
 * **MixUp**: Hongyi Zhang, Moustapha Cisse, Yann N. Dauphin, David Lopez-Paz.
@@ -202,7 +207,11 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * **TL-Align**: Han Xiao, Wenzhao Zheng, Zheng Zhu, Jie Zhou, Jiwen Lu.
    - Token-Label Alignment for Vision Transformers. [[arXiv'2022](https://arxiv.org/abs/2210.06455)] [[code](https://github.com/Euphoria16/TL-Align)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204579080-3b7c9352-8fb3-49bd-99f5-ce4f72d722d8.png" /></p>
+* **LUMix**: Shuyang Sun, Jie-Neng Chen, Ruifei He, Alan Yuille, Philip Torr, Song Bai.
+   - LUMix: Improving Mixup by Better Modelling Label Uncertainty. [[arXiv'2022](https://arxiv.org/abs/2211.15846)] [[code](https://github.com/kevin-ssy/LUMix)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/205531445-dc4b7790-e0b7-4c41-b9d2-708efa5e4198.png" /></p>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Mixup for Self-supervised Learning
 
@@ -267,6 +276,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - CropMix: Sampling a Rich Input Distribution via Multi-Scale Cropping. [[ArXiv'2022](https://arxiv.org/abs/2205.15955)] [[code](https://github.com/JunlinHan/CropMix)]
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204585732-680295fe-4768-4199-af72-bda10edda644.png" /></p>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Mixup for Semi-supervised Learning
 
@@ -286,6 +296,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - Decoupled Mixup for Data-efficient Learning. [[Arxiv'2022](https://arxiv.org/abs/2203.10761)] [[code](https://github.com/Westlake-AI/openmixup)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204578387-4be9567c-963a-4d2d-8c1f-c7c5ade527b8.png" /></p>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Analysis of Mixup
 
@@ -300,11 +311,12 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204826319-9ae701af-ad99-4780-85a6-492839c5bcbf.png" /></p>
 * Muthu Chidambaram, Xiang Wang, Yuzheng Hu, Chenwei Wu, Rong Ge.
    - Towards Understanding the Data Dependency of Mixup-style Training. [[ICLR'2022](https://openreview.net/pdf?id=ieNJYujcGDO)] [[code](https://github.com/2014mchidamb/Mixup-Data-Dependency)]
-   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204826671-e012b918-5a14-4b5f-929b-b2f079b79d3f.png" /></p>
+   <p align="center"><img width="65%" src="https://user-images.githubusercontent.com/44519745/204826671-e012b918-5a14-4b5f-929b-b2f079b79d3f.png" /></p>
 * Linjun Zhang, Zhun Deng, Kenji Kawaguchi, James Zou.
    - When and How Mixup Improves Calibration. [[ICML'2022](https://arxiv.org/abs/2102.06289)]
-   <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/204827323-b854f0a0-803f-46f8-9b74-44970998b311.png" /></p>
+   <p align="center"><img width="50%" src="https://user-images.githubusercontent.com/44519745/204827323-b854f0a0-803f-46f8-9b74-44970998b311.png" /></p>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Survey
 
@@ -313,6 +325,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * An overview of mixing augmentation methods and augmentation strategies.
    - A Survey on Masked Autoencoder for Self-supervised Learning in Vision and Beyond. [[Artificial Intelligence Review'2022](https://link.springer.com/article/10.1007/s10462-022-10227-z)]
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contribution
 
@@ -326,6 +339,15 @@ Feel free to send [pull requests](https://github.com/Westlake-AI/openmixup/pulls
 
 Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)), Zicheng Liu ([@pone7](https://github.com/pone7)), Zedong Wang ([@Jacky1128](https://github.com/Jacky1128)). We thank all contributors for `Awesome-Mixup`!
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## License
+
+This project is released under the [Apache 2.0 license](LICENSE).
+
+## Acknowledgement
+
+This repository is built using the [timm](https://github.com/rwightman/pytorch-image-models) library, [DeiT](https://github.com/facebookresearch/deit) and [ConvNeXt](https://github.com/facebookresearch/ConvNeXt) repositories.
 
 ## Related Project
 
