@@ -8,23 +8,26 @@
 
 The list of awesome mixup augmentation methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/docs/en/awesome_mixups) in [OpenMixup](https://github.com/Westlake-AI/openmixup). We first summarize fundermental mixup methods from two aspects: *sample mixup policy* and *label mixup policy*. Then, we summarize mixup techniques used in downstream tasks. Currently, we are working on a survey of mixup methods.
 
-**Table of Contents**
+* To find related papers and their relationships, check out [Connected Papers](https://www.connectedpapers.com/), which visualizes the academic field in a graph representation.
+* To export BibTeX citations of papers, check out [arXiv](https://arxiv.org/) or [semantic scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
 
-- [Awesome-Mixup](#awesome-mixup)
-  - [Introduction](#introduction)
-  - [Fundermental Methods](#fundermental-methods)
-    - [Sample Mixup Methods](#sample-mixup-methods)
-      - [**Pre-defined Policies**](#pre-defined-policies)
-      - [**Saliency-guided Policies**](#saliency-guided-policies)
-    - [Label Mixup Methods](#label-mixup-methods)
-  - [Mixup for Self-supervised Learning](#mixup-for-self-supervised-learning)
-  - [Mixup for Semi-supervised Learning](#mixup-for-semi-supervised-learning)
-  - [Analysis of Mixup](#analysis-of-mixup)
-  - [Survey](#survey)
-  - [Contribution](#contribution)
-  - [License](#license)
-  - [Acknowledgement](#acknowledgement)
-  - [Related Project](#related-project)
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Table of Contents](#table-of-contents)
+- [Fundermental Methods](#fundermental-methods)
+   - [Sample Mixup Methods](#sample-mixup-methods)
+      + [Pre-defined Policies](#pre-defined-policies)
+      + [Saliency-guided Policies](#saliency-guided-policies)
+   - [Label Mixup Methods](#label-mixup-methods)
+- [Mixup for Self-supervised Learning](#mixup-for-self-supervised-learning)
+- [Mixup for Semi-supervised Learning](#mixup-for-semi-supervised-learning)
+- [Analysis of Mixup](#analysis-of-mixup)
+- [Survey](#survey)
+- [Contribution](#contribution)
+- [License](#license)
+- [Acknowledgement](#acknowledgement)
+- [Related Project](#related-project)
 
 
 ## Fundermental Methods
