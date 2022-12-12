@@ -9,7 +9,7 @@
 The list of awesome mixup augmentation methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/docs/en/awesome_mixups) in [OpenMixup](https://github.com/Westlake-AI/openmixup). We first summarize fundermental mixup methods from two aspects: *sample mixup policy* and *label mixup policy*. Then, we summarize mixup techniques used in downstream tasks. Currently, we are working on a survey of mixup methods.
 
 * To find related papers and their relationships, check out [Connected Papers](https://www.connectedpapers.com/), which visualizes the academic field in a graph representation.
-* To export BibTeX citations of papers, check out [arXiv](https://arxiv.org/) or [semantic scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
+* To export BibTeX citations of papers, check out [ArXiv](https://arxiv.org/) or [Semantic Scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
 
 ## Table of Contents
 
@@ -240,7 +240,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - Piecing and Chipping: An effective solution for the information-erasing view generation in Self-supervised Learning. [[OpenReview'2021](https://openreview.net/forum?id=DnG8f7gweH4)]
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204582781-b54c4472-67eb-4e78-9362-44b990bbafa3.png" /></p>
 * **CoMix**: Aadarsh Sahoo, Rutav Shah, Rameswar Panda, Kate Saenko, Abir Das.
-   - Contrast and Mix: Temporal Contrastive Video Domain Adaptation with Background Mixing. [[NIPS'2021](https://proceedings.neurips.cc/paper/2021/file/c47e93742387750baba2e238558fa12d-Paper.pdf)] [[code](https://cvir.github.io/projects/comix)]
+   - Contrast and Mix: Temporal Contrastive Video Domain Adaptation with Background Mixing. [[NIPS'2021](https://arxiv.org/abs/2011.02697)] [[code](https://cvir.github.io/projects/comix)]
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204583146-fc363695-6889-46cd-93f1-236bec9d5fb5.png" /></p>
 * **SAMix**: Siyuan Li, Zicheng Liu, Di Wu, Zihan Liu, Stan Z. Li.
    - Boosting Discriminative Visual Representation Learning with Scenario-Agnostic Mixup. [[Arxiv'2021](https://arxiv.org/abs/2111.15454)] [[code](https://github.com/Westlake-AI/openmixup)]
@@ -323,10 +323,14 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 
 ## Survey
 
+* Connor Shorten and Taghi Khoshgoftaar.
+   - A survey on Image Data Augmentation for Deep Learning. [[Journal of Big Data'2019](https://www.researchgate.net/publication/334279066_A_survey_on_Image_Data_Augmentation_for_Deep_Learning)]
 * Humza Naveed.
    - Survey: Image Mixing and Deleting for Data Augmentation. [[ArXiv'2021](https://arxiv.org/abs/2106.07085)]
-* An overview of mixing augmentation methods and augmentation strategies.
-   - A Survey on Masked Autoencoder for Self-supervised Learning in Vision and Beyond. [[Artificial Intelligence Review'2022](https://link.springer.com/article/10.1007/s10462-022-10227-z)]
+* Dominik Lewy and Jacek Ma ́ndziuk.
+   - An overview of mixing augmentation methods and augmentation strategies. [[Artificial Intelligence Review'2022](https://link.springer.com/article/10.1007/s10462-022-10227-z)]
+* Suorong Yang, Weikang Xiao, Mengcheng Zhang, Suhan Guo, Jian Zhao, Furao Shen.
+   - Image Data Augmentation for Deep Learning: A Survey. [[ArXiv'2022](https://arxiv.org/abs/2204.08610)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
