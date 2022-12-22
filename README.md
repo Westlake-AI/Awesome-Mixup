@@ -6,7 +6,7 @@
 
 **We summarize awesome mixup data augmentation methods for visual representation learning in various scenarios.**
 
-The list of awesome mixup augmentation methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/docs/en/awesome_mixups) in [OpenMixup](https://github.com/Westlake-AI/openmixup). We first summarize fundermental mixup methods from two aspects: *sample mixup policy* and *label mixup policy*. Then, we summarize mixup techniques used in downstream tasks. Currently, we are working on a survey of mixup methods.
+The list of awesome mixup augmentation methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/docs/en/awesome_mixups) in [OpenMixup](https://github.com/Westlake-AI/openmixup), and we will add more papers according to [Awesome-Mix](https://github.com/ChengtaiCao/Awesome-Mix). We first summarize fundermental mixup methods from two aspects: *sample mixup policy* and *label mixup policy*. Then, we summarize mixup techniques used in downstream tasks.
 
 * To find related papers and their relationships, check out [Connected Papers](https://www.connectedpapers.com/), which visualizes the academic field in a graph representation.
 * To export BibTeX citations of papers, check out [ArXiv](https://arxiv.org/) or [Semantic Scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
@@ -331,6 +331,8 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - An overview of mixing augmentation methods and augmentation strategies. [[Artificial Intelligence Review'2022](https://link.springer.com/article/10.1007/s10462-022-10227-z)]
 * Suorong Yang, Weikang Xiao, Mengcheng Zhang, Suhan Guo, Jian Zhao, Furao Shen.
    - Image Data Augmentation for Deep Learning: A Survey. [[ArXiv'2022](https://arxiv.org/abs/2204.08610)]
+* Chengtai Cao, Fan Zhou, Yurou Dai, Jianping Wang.
+   - A Survey of Mix-based Data Augmentation: Taxonomy, Methods, Applications, and Explainability. [[ArXiv'2022](https://arxiv.org/abs/2212.10888)] [[code](https://github.com/ChengtaiCao/Awesome-Mix)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -359,5 +361,5 @@ This repository is built using the [timm](https://github.com/rwightman/pytorch-i
 ## Related Project
 
 - [OpenMixup](https://github.com/Westlake-AI/openmixup): CAIRI Supervised, Semi- and Self-Supervised Visual Representation Learning Toolbox and Benchmark.
-- [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/tree/main/docs/en/awesome_mixups): Awesome list of mixup augmentation methods for supervised, semi-, and self-supervised visual representation learning.
+- [Awesome-Mix](https://github.com/ChengtaiCao/Awesome-Mix): An awesome list of papers for `A Survey of Mix-based Data Augmentation: Taxonomy, Methods, Applications, and Explainability, we categorize them based on our proposed taxonomy`.
 - [awesome-mixup](https://github.com/demoleiwang/awesome-mixup): A collection of awesome papers about mixup.
