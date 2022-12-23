@@ -298,6 +298,10 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * **DFixMatch**: Zicheng Liu, Siyuan Li, Ge Wang, Cheng Tan, Lirong Wu, Stan Z. Li.
    - Decoupled Mixup for Data-efficient Learning. [[Arxiv'2022](https://arxiv.org/abs/2203.10761)] [[code](https://github.com/Westlake-AI/openmixup)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204578387-4be9567c-963a-4d2d-8c1f-c7c5ade527b8.png" /></p>
+* **LaserMix**: Lingdong Kong, Jiawei Ren, Liang Pan, Ziwei Liu.
+   - LaserMix for Semi-Supervised LiDAR Semantic Segmentation. [[Arxiv'2022](https://arxiv.org/abs/2207.00026)] [[code](https://github.com/ldkong1205/LaserMix)] [[project](https://ldkong.com/LaserMix)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/209255964-69cab84b-ae54-4e74-be4f-a23a836c665c.png" /></p>
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
