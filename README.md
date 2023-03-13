@@ -178,6 +178,9 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * **SMMix** Mengzhao Chen, Mingbao Lin, ZhiHang Lin, Yuxin Zhang, Fei Chao, Rongrong Ji.
    - SMMix: Self-Motivated Image Mixing for Vision Transformers. [[Arxiv'2022](https://arxiv.org/abs/2212.12977)] [[code](https://github.com/chenmnz/smmix)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/213537624-7359689e-b5af-4db1-a4ad-07876dd44089.png" /></p>
+* **MultiMix** Shashanka Venkataramanan, Ewa Kijak, Laurent Amsaleg, Yannis Avrithis.
+   - Teach me how to Interpolate a Myriad of Embeddings. [[Arxiv'2022](https://arxiv.org/abs/2206.14868)]
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/224786198-a85b76b9-0f8b-434d-be59-bbc41438aac9.png" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
