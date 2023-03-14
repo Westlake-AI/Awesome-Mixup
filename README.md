@@ -175,6 +175,9 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * **R-Mix and RL-Mix**: Minh-Long Luu, Zeyi Huang, Eric P.Xing, Yong Jae Lee, Haohan Wang.
    - Expeditious Saliency-guided Mix-up through Random Gradient Thresholding. [[2nd Practical-DL Workshop @ AAAI'23](https://arxiv.org/abs/2212.04875)] [[code](https://github.com/minhlong94/Random-Mixup)]
    <p align="center"><img width="85%" src="https://raw.githubusercontent.com/minhlong94/Random-Mixup/main/assets/Mixups.png" /></p>
+* **MixPro** Qihao Zhao, Yangyu Huang, Wei Hu, Fan Zhang, Jun Liu.
+   - MixPro: Data Augmentation with MaskMix and Progressive Attention Labeling for Vision Transformer. [[ICLR'2023](https://openreview.net/forum?id=dRjWsd3gwsm)]
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/224795935-afb936b2-fc77-4018-a681-72887f96fa59.png" /></p>
 * **SMMix** Mengzhao Chen, Mingbao Lin, ZhiHang Lin, Yuxin Zhang, Fei Chao, Rongrong Ji.
    - SMMix: Self-Motivated Image Mixing for Vision Transformers. [[Arxiv'2022](https://arxiv.org/abs/2212.12977)] [[code](https://github.com/chenmnz/smmix)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/213537624-7359689e-b5af-4db1-a4ad-07876dd44089.png" /></p>
@@ -312,11 +315,14 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * **Core-Tuning**: Yifan Zhang, Bryan Hooi, Dapeng Hu, Jian Liang, Jiashi Feng.
    - Unleashing the Power of Contrastive Self-Supervised Visual Models via Contrast-Regularized Fine-Tuning. [[NIPS'2021](https://arxiv.org/abs/2102.06605)] [[code](https://github.com/vanint/core-tuning)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204580135-ed6ba8b7-b69c-4683-90f0-9aa9cdd530bc.png" /></p>
+* **MUM**: JongMok Kim, Jooyoung Jang, Seunghyeon Seo, Jisoo Jeong, Jongkeun Na, Nojun Kwak.
+   - MUM : Mix Image Tiles and UnMix Feature Tiles for Semi-Supervised Object Detection. [[CVPR'2022](https://user-images.githubusercontent.com/44519745/225082975-4143e7f5-8873-433c-ab6f-6caa615f7120.png)] [[code](https://github.com/jongmokkim/mix-unmix)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/225082975-4143e7f5-8873-433c-ab6f-6caa615f7120.png" /></p>
 * **DFixMatch**: Zicheng Liu, Siyuan Li, Ge Wang, Cheng Tan, Lirong Wu, Stan Z. Li.
    - Decoupled Mixup for Data-efficient Learning. [[Arxiv'2022](https://arxiv.org/abs/2203.10761)] [[code](https://github.com/Westlake-AI/openmixup)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204578387-4be9567c-963a-4d2d-8c1f-c7c5ade527b8.png" /></p>
 * **LaserMix**: Lingdong Kong, Jiawei Ren, Liang Pan, Ziwei Liu.
-   - LaserMix for Semi-Supervised LiDAR Semantic Segmentation. [[Arxiv'2022](https://arxiv.org/abs/2207.00026)] [[code](https://github.com/ldkong1205/LaserMix)] [[project](https://ldkong.com/LaserMix)]
+   - LaserMix for Semi-Supervised LiDAR Semantic Segmentation. [[CVPR'2023](https://arxiv.org/abs/2207.00026)] [[code](https://github.com/ldkong1205/LaserMix)] [[project](https://ldkong.com/LaserMix)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/209255964-69cab84b-ae54-4e74-be4f-a23a836c665c.png" /></p>
 
 
@@ -380,7 +386,7 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ## Acknowledgement
 
-This repository is built using the [timm](https://github.com/rwightman/pytorch-image-models) library, [DeiT](https://github.com/facebookresearch/deit) and [ConvNeXt](https://github.com/facebookresearch/ConvNeXt) repositories.
+This repository is built using the [OpenMixup](https://github.com/Westlake-AI/openmixup) library and [Awesome README](https://github.com/matiassingers/awesome-readme) repository.
 
 ## Related Project
 
