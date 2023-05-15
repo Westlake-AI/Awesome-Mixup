@@ -24,6 +24,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
   - [Mixup for Self-supervised Learning](#mixup-for-self-supervised-learning)
   - [Mixup for Semi-supervised Learning](#mixup-for-semi-supervised-learning)
   - [Analysis of Mixup](#analysis-of-mixup)
+  - [Natural Language Processing](#natural-language-processing)
   - [Survey](#survey)
   - [Contribution](#contribution)
   - [License](#license)
@@ -132,7 +133,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - SnapMix: Semantically Proportional Mixing for Augmenting Fine-grained Data. [[AAAI'2021](https://arxiv.org/abs/2012.04846)] [[code](https://github.com/Shaoli-Huang/SnapMix)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204572296-2035c6b4-c477-4484-a8e6-7ad9ad415045.png" /></p>
 * **AttributeMix**: Hao Li, Xiaopeng Zhang, Hongkai Xiong, Qi Tian.
-   - Attribute Mix: Semantic Data Augmentation for Fine Grained Recognition. [[Arxiv'2020](https://arxiv.org/abs/2004.02684)]
+   - Attribute Mix: Semantic Data Augmentation for Fine Grained Recognition. [[VCIP'2020](https://arxiv.org/abs/2004.02684)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204573220-13a3b90e-73f8-4277-a997-67dddb15dd1c.png" /></p>
 * **AMR**: Christopher Beckham, Sina Honari, Vikas Verma, Alex Lamb, Farnoosh Ghadiri, R Devon Hjelm, Yoshua Bengio, Christopher Pal.
    - On Adversarial Mixup Resynthesis. [[NIPS'2019](https://arxiv.org/abs/1903.02709)] [[code](https://github.com/christopher-beckham/amr)]
@@ -156,7 +157,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    - Evolving Image Compositions for Feature Representation Learning. [[BMVC'2021](https://arxiv.org/abs/2106.09011)]
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204574267-8e53783d-ea54-4399-8c32-86c8ac2520bd.png" /></p>
 * **StackMix**: John Chen, Samarth Sinha, Anastasios Kyrillidis.
-   - StackMix: A complementary Mix algorithm. [[Arxiv'2021](https://arxiv.org/abs/2011.12618)]
+   - StackMix: A complementary Mix algorithm. [[UAI'2022](https://arxiv.org/abs/2011.12618)]
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204574552-fb5e9865-86b0-4d51-977c-82a840d81a18.png" /></p>
 * **SalfMix**: Jaehyeop Choi, Chaehyeon Lee, Donggyu Lee, Heechul Jung.
    - SalfMix: A Novel Single Image-Based Data Augmentation Technique Using a Saliency Map. [[Sensor'2021](https://pdfs.semanticscholar.org/1db9/c80edeed50858783c69237aeba764750e8b7.pdf?_ga=2.182064935.1813772674.1674154381-1810295069.1625160008)]
@@ -370,6 +371,31 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * Zixuan Liu, Ziqiao Wang, Hongyu Guo, Yongyi Mao.
    - Over-Training with Mixup May Hurt Generalization. [[ICLR'2023](https://openreview.net/forum?id=JmkjrlVE-DG)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/216831436-704b0427-61a0-42ff-b4e6-ab361be8b634.png" /></p>
+* Junsoo Oh, Chulhee Yun.
+   - Provable Benefit of Mixup for Finding Optimal Decision Boundaries. [[ICML'2023](https://chulheeyun.github.io/publication/oh2023provable/)]
+* Soyoun Won, Sung-Ho Bae, Seong Tae Kim.
+   - Analyzing Effects of Mixed Sample Data Augmentation on Model Interpretability. [[arXiv'2023](https://arxiv.org/abs/2303.14608)]
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Natural Language Processing
+
+* Hongyu Guo, Yongyi Mao, Richong Zhang.
+   - Augmenting Data with Mixup for Sentence Classification: An Empirical Study. [[arXiv'2019](https://arxiv.org/abs/1905.08941)] [[code](https://github.com/dsfsi/textaugment)]
+* **Mixup-Transformer** Lichao Sun, Congying Xia, Wenpeng Yin, Tingting Liang, Philip S. Yu, Lifang He.
+   - Mixup-Transformer: Dynamic Data Augmentation for NLP Tasks. [[COLING'2020](https://arxiv.org/abs/2010.02394)]
+* **Calibrated-BERT-Fine-Tuning** Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao, Chao Zhang.
+   - Calibrated Language Model Fine-Tuning for In- and Out-of-Distribution Data. [[EMNLP'2020](https://arxiv.org/abs/2010.11506)] [[code](https://github.com/Lingkai-Kong/Calibrated-BERT-Fine-Tuning)]
+* **EMix**: Amit Jindal, Arijit Ghosh Chowdhury, Aniket Didolkar, Di Jin, Ramit Sawhney, Rajiv Ratn Shah.
+   - Augmenting NLP Models using Latent Feature Interpolations. [[COLING'2020](https://aclanthology.org/2020.coling-main.611/)]
+* **MixText**: Jiaao Chen, Zichao Yang, Diyi Yang.
+   - MixText: Linguistically-informed Interpolation of Hidden Space for Semi-Supervised Text Classification. [[ACL'2020](https://arxiv.org/abs/2004.12239)] [[code](https://github.com/GT-SALT/MixText)]
+* **TreeMix**: Le Zhang, Zichao Yang, Diyi Yang.
+   - TreeMix: Compositional Constituency-based Data Augmentation for Natural Language Understanding. [[NAALC'2022](https://arxiv.org/abs/2205.06153)] [[code](https://github.com/magiccircuit/treemix)]
+* **STEMM** Qingkai Fang, Rong Ye, Lei Li, Yang Feng, Mingxuan Wang.
+   - STEMM: Self-learning with Speech-text Manifold Mixup for Speech Translation. [[ACL'2022](https://arxiv.org/abs/2010.02394)] [[code](https://github.com/ictnlp/STEMM)]
+* **X-Mixup** Huiyun Yang, Huadong Chen, Hao Zhou, Lei Li.
+   - Enhancing Cross-lingual Transfer by Manifold Mixup. [[ICLR'2022](https://arxiv.org/abs/2205.04182)] [[code](https://github.com/yhy1117/x-mixup)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
