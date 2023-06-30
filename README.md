@@ -186,6 +186,9 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * **TransformMix** Tsz-Him Cheung, Dit-Yan Yeung.
    - TransformMix: Learning Transformation and Mixing Strategies for Sample-mixing Data Augmentation. [[OpenReview'2022](https://openreview.net/forum?id=-1vpxBUtP0B)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204575385-0b2d7470-0ffd-4b6b-977b-ef28b1617954.png" /></p>
+* **GuidedMixup** Minsoo Kang, Suhyun Kim.
+   - GuidedMixup: An Efficient Mixup Strategy Guided by Saliency Maps. [[AAAI'2023](https://arxiv.org/abs/2306.16612)]
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/250170540-97434afd-790c-4148-81dc-ff7129ca3f7c.png" /></p>
 * **R-Mix and RL-Mix**: Minh-Long Luu, Zeyi Huang, Eric P.Xing, Yong Jae Lee, Haohan Wang.
    - Expeditious Saliency-guided Mix-up through Random Gradient Thresholding. [[2nd Practical-DL Workshop @ AAAI'23](https://arxiv.org/abs/2212.04875)] [[code](https://github.com/minhlong94/Random-Mixup)]
    <p align="center"><img width="85%" src="https://raw.githubusercontent.com/minhlong94/Random-Mixup/main/assets/Mixups.png" /></p>
@@ -247,6 +250,9 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * **MixupE**: Vikas Verma, Sarthak Mittal, Wai Hoh Tang, Hieu Pham, Juho Kannala, Yoshua Bengio, Arno Solin, Kenji Kawaguchi.
    - MixupE: Understanding and Improving Mixup from Directional Derivative Perspective. [[arXiv'2022](https://arxiv.org/abs/2212.13381)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/209991074-3dd41cdf-4e64-42e2-8bf4-ebc60e8212d0.png" /></p>
+* **IC-Mixup**: Thomas Mensink, Pascal Mettes.
+   - Infinite Class Mixup. [[arXiv'2023](https://arxiv.org/abs/2305.10293)]
+   <p align="center"><img width="60%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/5082d12b-8cb0-4a3e-8258-c0dbf78e3159" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -285,6 +291,9 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * **MixSSL**: Yichen Zhang, Yifang Yin, Ying Zhang, Roger Zimmermann.
    - Mix-up Self-Supervised Learning for Contrast-agnostic Applications. [[ICME'2021](https://arxiv.org/abs/2204.00901)]
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204583625-58632669-05f0-445b-bd41-60aa37b515d4.png" /></p>
+* **DACL** Vikas Verma, Minh-Thang Luong, Kenji Kawaguchi, Hieu Pham, Quoc V. Le.
+   - Towards Domain-Agnostic Contrastive Learning. [[ICML'2021](https://arxiv.org/abs/2011.04419)]
+   <p align="center"><img width="50%" src="https://github.com/Westlake-AI/MogaNet/assets/44519745/19c8e3cb-db6f-463f-a765-c243b2f9e45a" /></p>
 * **CLIM**: Hao Li, Xiaopeng Zhang, Hongkai Xiong.
    - Center-wise Local Image Mixture For Contrastive Representation Learning. [[BMVC'2021](https://arxiv.org/abs/2011.02697)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204583930-15ab3916-9d8b-4adf-9a79-e40eabbbc255.png" /></p>
@@ -318,6 +327,9 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * **MixedAE**: Kai Chen, Zhili Liu, Lanqing Hong, Hang Xu, Zhenguo Li, Dit-Yan Yeung.
    - Mixed Autoencoder for Self-supervised Visual Representation Learning. [[CVPR'2023](https://arxiv.org/abs/2303.17152)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/229929023-1ea53237-ebfb-4203-8b93-dd761d937b27.png" /></p>
+* **PatchMix**: Chengchao Shen, Dawei Liu, Hao Tang, Zhe Qu, Jianxin Wang.
+   - Inter-Instance Similarity Modeling for Contrastive Learning. [[ArXiv'2023](https://arxiv.org/abs/2306.12243)] [[code](https://github.com/visresearch/patchmix)]
+   <p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/250166870-98280c28-2736-4f08-a418-d28e9ba3a588.png" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
