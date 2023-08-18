@@ -27,6 +27,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
   - [Analysis of Mixup](#analysis-of-mixup)
   - [Natural Language Processing](#natural-language-processing)
   - [Survey](#survey)
+  - [Benchmark](#benchmark)
   - [Contribution](#contribution)
   - [License](#license)
   - [Acknowledgement](#acknowledgement)
@@ -398,7 +399,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    </details>
 * **SMMix** Mengzhao Chen, Mingbao Lin, ZhiHang Lin, Yuxin Zhang, Fei Chao, Rongrong Ji.
 
-   SMMix: Self-Motivated Image Mixing for Vision Transformers. [[Arxiv'2022](https://arxiv.org/abs/2212.12977)] [[code](https://github.com/chenmnz/smmix)]
+   SMMix: Self-Motivated Image Mixing for Vision Transformers. [[ICCV'2023](https://arxiv.org/abs/2212.12977)] [[code](https://github.com/chenmnz/smmix)]
    <details close>
    <summary>Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/213537624-7359689e-b5af-4db1-a4ad-07876dd44089.png" /></p>
@@ -670,9 +671,16 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    <summary>Framework</summary>
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204585732-680295fe-4768-4199-af72-bda10edda644.png" /></p>
    </details>
-* **MixMIM**: Jihao Liu, Xin Huang, Yu Liu, Hongsheng Li.
+* **i-MAE**: Kevin Zhang, Zhiqiang Shen.
 
-   MixMIM: Mixed and Masked Image Modeling for Efficient Visual Representation Learning. [[ArXiv'2022](https://arxiv.org/abs/2205.13137)] [[code](https://github.com/Sense-X/MixMIM)]
+   - i-MAE: Are Latent Representations in Masked Autoencoders Linearly Separable? [[ArXiv'2022](https://arxiv.org/abs/2210.11470)] [[code](https://github.com/vision-learning-acceleration-lab/i-mae)]
+   <details close>
+   <summary>Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/211220785-5031f97c-c9a3-4ade-b344-48db01fc3760.png" /></p>
+   </details>
+* **MixMAE**: Jihao Liu, Xin Huang, Jinliang Zheng, Yu Liu, Hongsheng Li.
+
+   MixMAE: Mixed and Masked Autoencoder for Efficient Pretraining of Hierarchical Vision Transformers. [[CVPR'2023](https://arxiv.org/abs/2205.13137)] [[code](https://github.com/Sense-X/MixMIM)]
    <details close>
    <summary>Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204315480-5c59ed60-7b5f-4da9-85fb-551a961fd731.png" /></p>
@@ -861,6 +869,12 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * Chengtai Cao, Fan Zhou, Yurou Dai, Jianping Wang.
 
    A Survey of Mix-based Data Augmentation: Taxonomy, Methods, Applications, and Explainability. [[ArXiv'2022](https://arxiv.org/abs/2212.10888)] [[code](https://github.com/ChengtaiCao/Awesome-Mix)]
+
+## Benchmark
+
+* Siyuan Li, Zedong Wang, Zicheng Liu, Di Wu, Stan Z. Li.
+
+   OpenMixup: Open Mixup Toolbox and Benchmark for Visual Representation Learning. [[ArXiv'2022](https://arxiv.org/abs/2209.04851)] [[code](https://github.com/Westlake-AI/openmixup)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
