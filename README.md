@@ -411,6 +411,13 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    <summary>Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/224786198-a85b76b9-0f8b-434d-be59-bbc41438aac9.png" /></p>
    </details>
+* **GradSalMix** Tao Hong, Ya Wang, Xingwu Sun, Fengzong Lian, Zhanhui Kang, Jinwen Ma.
+
+   GradSalMix: Gradient Saliency-Based Mix for Image Data Augmentation. [[ICME'2023](https://ieeexplore.ieee.org/abstract/document/10219625)]
+   <details close>
+   <summary>Framework</summary>
+   <p align="center"><img width="75%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264142659-b8e2eef2-f6ea-4b03-bc03-0d2c08212f3a.png" /></p>
+   </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -518,6 +525,27 @@ The list of awesome mixup augmentation methods is summarized in chronological or
    <details close>
    <summary>Framework</summary>
    <p align="center"><img width="60%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/5082d12b-8cb0-4a3e-8258-c0dbf78e3159" /></p>
+   </details>
+* **SEM**: Zongbo Han, Tianchi Xie, Bingzhe Wu, Qinghua Hu, Changqing Zhang.
+
+   Semantic Equivariant Mixup. [[arXiv'2023](https://arxiv.org/abs/2308.06451)]
+   <details close>
+   <summary>Framework</summary>
+   <p align="center"><img width="75%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264147910-bbe70d79-b521-4de2-8c5e-251301cfc6ad.png" /></p>
+   </details>
+* **RankMixup**: Jongyoun Noh, Hyekang Park, Junghyup Lee, Bumsub Ham.
+
+   RankMixup: Ranking-Based Mixup Training for Network Calibration. [[ICCV'2023](https://arxiv.org/abs/2308.11990)] [[code](https://cvlab.yonsei.ac.kr/projects/RankMixup)]
+   <details close>
+   <summary>Framework</summary>
+   <p align="center"><img width="60%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264144742-051304d2-4f64-4bd7-9e70-12074c2215e4.png" /></p>
+   </details>
+* **G-Mix**: Xingyu Li, Bo Tang.
+
+   G-Mix: A Generalized Mixup Learning Framework Towards Flat Minima. [[arXiv'2023](https://arxiv.org/abs/2308.03236)]
+   <details close>
+   <summary>Framework</summary>
+   <p align="center"><img width="70%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264155347-1a94f3d1-a9d8-46e1-bb32-bed0bfb449ca.png" /></p>
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
