@@ -24,8 +24,10 @@ The list of awesome mixup augmentation methods is summarized in chronological or
     - [Label Mixup Methods](#label-mixup-methods)
   - [Mixup for Self-supervised Learning](#mixup-for-self-supervised-learning)
   - [Mixup for Semi-supervised Learning](#mixup-for-semi-supervised-learning)
+  - [Mixup for Regression](#mixup-for-regression)
   - [Analysis of Mixup](#analysis-of-mixup)
   - [Natural Language Processing](#natural-language-processing)
+  - [Graph Representation Learning](#graph-representation-learning)
   - [Survey](#survey)
   - [Benchmark](#benchmark)
   - [Contribution](#contribution)
@@ -632,7 +634,8 @@ arXiv'2022 [[Paper](https://arxiv.org/abs/2211.15846)]
 
 * **MixupE: Understanding and Improving Mixup from Directional Derivative Perspective**<br>
 *Vikas Verma, Sarthak Mittal, Wai Hoh Tang, Hieu Pham, Juho Kannala, Yoshua Bengio, Arno Solin, Kenji Kawaguchi*<br>
-arXiv'2022 [[Paper](https://arxiv.org/abs/2212.13381)]
+UAI'2023 [[Paper](https://arxiv.org/abs/2212.13381)]
+[[Code](https://github.com/onehuster/mixupe)]
    <details close>
    <summary>MixupE Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/209991074-3dd41cdf-4e64-42e2-8bf4-ebc60e8212d0.png" /></p>
@@ -942,7 +945,7 @@ CVPR'2022 [[Paper](https://user-images.githubusercontent.com/44519745/225082975-
 
 * **Decoupled Mixup for Data-efficient Learning**<br>
 *Zicheng Liu, Siyuan Li, Ge Wang, Cheng Tan, Lirong Wu, Stan Z. Li*<br>
-Arxiv'2022 [[Paper](https://arxiv.org/abs/2203.10761)]
+NIPS'2023 [[Paper](https://arxiv.org/abs/2203.10761)]
 [[Code](https://github.com/Westlake-AI/openmixup)]
    <details close>
    <summary>DFixMatch Framework</summary>
@@ -975,12 +978,28 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2308.16573)]
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/268410560-a45c03d9-beb1-4b74-a34b-4d1ecd356de9.png" /></p>
    </details>
 
+## Mixup for Regression
+
+* **RegMix: Data Mixing Augmentation for Regression**<br>
+*Seong-Hyeon Hwang, Steven Euijong Whang*<br>
+ArXiv'2021 [[Paper](https://arxiv.org/abs/2106.03374)]
+
+* **C-Mixup: Improving Generalization in Regression**<br>
+*Huaxiu Yao, Yiping Wang, Linjun Zhang, James Zou, Chelsea Finn*<br>
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2210.05775)]
+[[Code](https://github.com/huaxiuyao/C-Mixup)]
+
+* **ExtraMix: Extrapolatable Data Augmentation for Regression using Generative Models**<br>
+*Kisoo Kwon, Kuhwan Jeong, Sanghyun Park, Sangha Park, Hoshik Lee, Seung-Yeon Kwak, Sungmin Kim, Kyunghyun Cho*<br>
+OpenReview'2022 [[Paper](https://openreview.net/forum?id=NgEuFT-SIgI)]
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Analysis of Mixup
 
-* Sunil Thulasidasan, Gopinath Chennupati, Jeff Bilmes, Tanmoy Bhattacharya, Sarah Michalak.
-   - On Mixup Training: Improved Calibration and Predictive Uncertainty for Deep Neural Networks. [[NIPS'2019](https://arxiv.org/abs/1905.11001)] [[code](https://github.com/paganpasta/onmixup)]
+* **On Mixup Training: Improved Calibration and Predictive Uncertainty for Deep Neural Networks**<br>
+*Sunil Thulasidasan, Gopinath Chennupati, Jeff Bilmes, Tanmoy Bhattacharya, Sarah Michalak*<br>
+NeurIPS'2019 [[Paper](https://arxiv.org/abs/1905.11001)] [[Code](https://github.com/paganpasta/onmixup)]
    <details close>
    <summary>Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204825679-ee39834f-7346-4465-b58e-c4909dec767f.png" /></p>
@@ -1045,6 +1064,17 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2308.16573)]
 * **X-Mixup** Huiyun Yang, Huadong Chen, Hao Zhou, Lei Li.
    - Enhancing Cross-lingual Transfer by Manifold Mixup. [[ICLR'2022](https://arxiv.org/abs/2205.04182)] [[code](https://github.com/yhy1117/x-mixup)]
 
+## Graph Representation Learning
+
+* **Fused Gromov-Wasserstein Graph Mixup for Graph-level Classifications**<br>
+*Xinyu Ma, Xu Chu, Yasha Wang, Yang Lin, Junfeng Zhao, Liantao Ma, Wenwu Zhu*<br>
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2306.15963)]
+[[code](https://github.com/ArthurLeoM/FGWMixup)]
+
+* **G-Mixup: Graph Data Augmentation for Graph Classification**<br>
+*Xiaotian Han, Zhimeng Jiang, Ninghao Liu, Xia Hu*<br>
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2202.07179)]
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Survey
@@ -1073,8 +1103,10 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.10888)]
 
 ## Benchmark
 
-* Siyuan Li, Zedong Wang, Zicheng Liu, Di Wu, Stan Z. Li.
-   - OpenMixup: Open Mixup Toolbox and Benchmark for Visual Representation Learning. [[ArXiv'2022](https://arxiv.org/abs/2209.04851)] [[code](https://github.com/Westlake-AI/openmixup)]
+* **OpenMixup: A Comprehensive Mixup Benchmark for Visual Classification**<br>
+*Siyuan Li, Zedong Wang, Zicheng Liu, Di Wu, Cheng Tan, Weiyang Jin, Stan Z. Li*<br>
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2209.04851)]
+[[Code](https://github.com/Westlake-AI/openmixup)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
