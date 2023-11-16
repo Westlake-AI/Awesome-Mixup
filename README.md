@@ -25,6 +25,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
   - [Mixup for Self-supervised Learning](#mixup-for-self-supervised-learning)
   - [Mixup for Semi-supervised Learning](#mixup-for-semi-supervised-learning)
   - [Mixup for Regression](#mixup-for-regression)
+  - [Mixup for Robustness](#mixup-for-robustness)
   - [Analysis of Mixup](#analysis-of-mixup)
   - [Natural Language Processing](#natural-language-processing)
   - [Graph Representation Learning](#graph-representation-learning)
@@ -925,6 +926,14 @@ ICLR'2020 [[Paper](https://arxiv.org/abs/2002.07394)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/230495626-f0f3f52e-9f8a-472d-8ff2-b33356993e09.png" /></p>
    </details>
 
+* **Epsilon Consistent Mixup: Structural Regularization with an Adaptive Consistency-Interpolation Tradeoff**<br>
+*Vincent Pisztora, Yanglan Ou, Xiaolei Huang, Francesca Chiaromonte, Jia Li*<br>
+ArXiv'2021 [[Paper](https://arxiv.org/abs/2104.09452)]
+   <details close>
+   <summary>Epsilon Consistent Mixup (ϵmu) Framework</summary>
+   <p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/283528510-1f3b643c-0edd-416e-9979-110f3d2be6b6.png" /></p>
+   </details>
+
 * **Unleashing the Power of Contrastive Self-Supervised Visual Models via Contrast-Regularized Fine-Tuning**<br>
 *Yifan Zhang, Bryan Hooi, Dapeng Hu, Jian Liang, Jiashi Feng*<br>
 NIPS'2021 [[Paper](https://arxiv.org/abs/2102.06605)]
@@ -934,7 +943,7 @@ NIPS'2021 [[Paper](https://arxiv.org/abs/2102.06605)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204580135-ed6ba8b7-b69c-4683-90f0-9aa9cdd530bc.png" /></p>
    </details>
 
-* **MUM : Mix Image Tiles and UnMix Feature Tiles for Semi-Supervised Object Detection**<br>
+* **MUM: Mix Image Tiles and UnMix Feature Tiles for Semi-Supervised Object Detection**<br>
 *JongMok Kim, Jooyoung Jang, Seunghyeon Seo, Jisoo Jeong, Jongkeun Na, Nojun Kwak*<br>
 CVPR'2022 [[Paper](https://user-images.githubusercontent.com/44519745/225082975-4143e7f5-8873-433c-ab6f-6caa615f7120.png)]
 [[Code](https://github.com/jongmokkim/mix-unmix)]
@@ -993,7 +1002,50 @@ NeurIPS'2022 [[Paper](https://arxiv.org/abs/2210.05775)]
 *Kisoo Kwon, Kuhwan Jeong, Sanghyun Park, Sangha Park, Hoshik Lee, Seung-Yeon Kwak, Sungmin Kim, Kyunghyun Cho*<br>
 OpenReview'2022 [[Paper](https://openreview.net/forum?id=NgEuFT-SIgI)]
 
+* **Mixup Your Own Pairs**<br>
+*Yilei Wu, Zijian Dong, Chongyao Chen, Wangchunshu Zhou, Juan Helen Zhou*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2309.16633)]
+[[Code](https://github.com/yilei-wu/supremix)]
+   <details close>
+   <summary>SupReMix Framework</summary>
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/283530899-d69f9dca-04ee-487f-bef0-4d16f63d38f8.png" /></p>
+   </details>
+
+## Mixup for Robustness
+
+* **Mixup as directional adversarial training**<br>
+*Guillaume P. Archambault, Yongyi Mao, Hongyu Guo, Richong Zhang*<br>
+NeurIPS'2019 [[Paper](https://arxiv.org/abs/1906.06875)]
+[[Code](https://github.com/mixupAsDirectionalAdversarial/mixup_as_dat)]
+
+* **Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks**<br>
+*Tianyu Pang, Kun Xu, Jun Zhu*<br>
+ICLR'2020 [[Paper](https://arxiv.org/abs/1909.11515)]
+[[Code](https://github.com/P2333/Mixup-Inference)]
+
+* **Addressing Neural Network Robustness with Mixup and Targeted Labeling Adversarial Training**<br>
+*Alfred Laugros, Alice Caplier, Matthieu Ospici*<br>
+ECCV'2020 [[Paper](https://arxiv.org/abs/2008.08384)]
+
+* **Mixup Training as the Complexity Reduction**<br>
+*Masanari Kimura*<br>
+OpenReview'2021 [[Paper](https://openreview.net/forum?id=xvWZQtxI7qq)]
+
+* **Adversarial Vertex Mixup: Toward Better Adversarially Robust Generalization**<br>
+*Saehyung Lee, Hyungyu Lee, Sungroh Yoon*<br>
+CVPR'2020 [[Paper](https://arxiv.org/abs/2003.02484)]
+[[Code](https://github.com/Saehyung-Lee/cifar10_challenge)]
+
+* **MixACM: Mixup-Based Robustness Transfer via Distillation of Activated Channel Maps**<br>
+*Muhammad Awais, Fengwei Zhou, Chuanlong Xie, Jiawei Li, Sung-Ho Bae, Zhenguo Li*<br>
+NeurIPS'2021 [[Paper](https://arxiv.org/abs/2111.05073)]
+
+* **On the benefits of defining vicinal distributions in latent space**<br>
+*Puneet Mangla, Vedant Singh, Shreyas Jayant Havaldar, Vineeth N Balasubramanian*<br>
+CVPRW'2021 [[Paper](https://arxiv.org/abs/2003.06566)]
+
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ## Analysis of Mixup
 
