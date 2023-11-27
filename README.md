@@ -514,6 +514,10 @@ ICME'2023 [[Paper](https://ieeexplore.ieee.org/abstract/document/10219625)]
    <p align="center"><img width="75%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264142659-b8e2eef2-f6ea-4b03-bc03-0d2c08212f3a.png" /></p>
    </details>
 
+* **Adversarial AutoMixup**<br>
+*Anonymous*<br>
+Openreview'2023 [[Paper](https://openreview.net/forum?id=o8tjamaJ80)]
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Label Mixup Methods
@@ -1002,6 +1006,15 @@ NeurIPS'2022 [[Paper](https://arxiv.org/abs/2210.05775)]
 *Kisoo Kwon, Kuhwan Jeong, Sanghyun Park, Sangha Park, Hoshik Lee, Seung-Yeon Kwak, Sungmin Kim, Kyunghyun Cho*<br>
 OpenReview'2022 [[Paper](https://openreview.net/forum?id=NgEuFT-SIgI)]
 
+* **Anchor Data Augmentation**<br>
+*Nora Schneider, Shirin Goshtasbpour, Fernando Perez-Cruz*<br>
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2311.06965)]
+
+* **Rank-N-Contrast: Learning Continuous Representations for Regression**<br>
+*Kaiwen Zha, Peng Cao, Jeany Son, Yuzhe Yang, Dina Katabi*<br>
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2210.01189)]
+[[Code](https://github.com/kaiwenzha/Rank-N-Contrast)]
+
 * **Mixup Your Own Pairs**<br>
 *Yilei Wu, Zijian Dong, Chongyao Chen, Wangchunshu Zhou, Juan Helen Zhou*<br>
 ArXiv'2023 [[Paper](https://arxiv.org/abs/2309.16633)]
@@ -1010,6 +1023,19 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2309.16633)]
    <summary>SupReMix Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/283530899-d69f9dca-04ee-487f-bef0-4d16f63d38f8.png" /></p>
    </details>
+
+* **Tailoring Mixup to Data using Kernel Warping functions**<br>
+*Quentin Bouniot, Pavlo Mozharovskyi, Florence d'Alché-Buc*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2311.01434)]
+[[Code](https://github.com/ENSTA-U2IS/torch-uncertainty)]
+   <details close>
+   <summary>SupReMix Framework</summary>
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/285024114-9e741976-bd59-46dc-bd57-dc498079a6bb.png" /></p>
+   </details>
+
+* **OmniMixup: Generalize Mixup with Mixing-Pair Sampling Distribution**<br>
+*Anonymous*<br>
+Openreview'2023 [[Paper](https://openreview.net/forum?id=6Uc7Fgwrsm)]
 
 ## Mixup for Robustness
 
