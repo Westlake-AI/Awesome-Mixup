@@ -26,6 +26,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
   - [Mixup for Semi-supervised Learning](#mixup-for-semi-supervised-learning)
   - [Mixup for Regression](#mixup-for-regression)
   - [Mixup for Robustness](#mixup-for-robustness)
+  - [Mixup for Multi-modality](#mixup-for-multi-modality)
   - [Analysis of Mixup](#analysis-of-mixup)
   - [Natural Language Processing](#natural-language-processing)
   - [Graph Representation Learning](#graph-representation-learning)
@@ -498,9 +499,10 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2212.12977)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/213537624-7359689e-b5af-4db1-a4ad-07876dd44089.png" /></p>
    </details>
 
-* **Teach me how to Interpolate a Myriad of Embeddings**<br>
+<!-- * **Teach me how to Interpolate a Myriad of Embeddings**<br> -->
+* **Embedding Space Interpolation Beyond Mini-Batch, Beyond Pairs and Beyond Examples**<br>
 *Shashanka Venkataramanan, Ewa Kijak, Laurent Amsaleg, Yannis Avrithis*<br>
-Arxiv'2022 [[Paper](https://arxiv.org/abs/2206.14868)]
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2206.14868)]
    <details close>
    <summary>MultiMix Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/224786198-a85b76b9-0f8b-434d-be59-bbc41438aac9.png" /></p>
@@ -515,8 +517,13 @@ ICME'2023 [[Paper](https://ieeexplore.ieee.org/abstract/document/10219625)]
    </details>
 
 * **Adversarial AutoMixup**<br>
-*Anonymous*<br>
-Openreview'2023 [[Paper](https://openreview.net/forum?id=o8tjamaJ80)]
+*Huafeng Qin, Xin Jin, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2312.11954)]
+[[Code](https://github.com/jinxins/adversarial-automixup)]
+   <details close>
+   <summary>AdAutoMix Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/cdf24e60-e262-4d69-88a6-d1544e625679" /></p>
+   </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -588,7 +595,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2201.02354)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204578083-3212ed98-6f1b-422b-8764-0276a65bce8e.png" /></p>
    </details>
 
-* **Decoupled Mixup for Data-efficient Learning**<br>
+* **Harnessing Hard Mixed Samples with Decoupled Regularizer**<br>
 *Zicheng Liu, Siyuan Li, Ge Wang, Cheng Tan, Lirong Wu, Stan Z. Li*<br>
 NIPS'2023 [[Paper](https://arxiv.org/abs/2203.10761)]
 [[Code](https://github.com/Westlake-AI/openmixup)]
@@ -856,7 +863,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.15955)]
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204585732-680295fe-4768-4199-af72-bda10edda644.png" /></p>
    </details>
 
-* **- i-MAE: Are Latent Representations in Masked Autoencoders Linearly Separable**<br>
+* **i-MAE: Are Latent Representations in Masked Autoencoders Linearly Separable**<br>
 *Kevin Zhang, Zhiqiang Shen*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.11470)]
 [[Code](https://github.com/vision-learning-acceleration-lab/i-mae)]
@@ -956,7 +963,7 @@ CVPR'2022 [[Paper](https://user-images.githubusercontent.com/44519745/225082975-
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/225082975-4143e7f5-8873-433c-ab6f-6caa615f7120.png" /></p>
    </details>
 
-* **Decoupled Mixup for Data-efficient Learning**<br>
+* **Harnessing Hard Mixed Samples with Decoupled Regularizer**<br>
 *Zicheng Liu, Siyuan Li, Ge Wang, Cheng Tan, Lirong Wu, Stan Z. Li*<br>
 NIPS'2023 [[Paper](https://arxiv.org/abs/2203.10761)]
 [[Code](https://github.com/Westlake-AI/openmixup)]
@@ -1072,75 +1079,140 @@ CVPRW'2021 [[Paper](https://arxiv.org/abs/2003.06566)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Mixup for Multi-modality
+
+* **MixGen: A New Multi-Modal Data Augmentation**<br>
+*Xiaoshuai Hao, Yi Zhu, Srikar Appalaraju, Aston Zhang, Wanqian Zhang, Bo Li, Mu Li*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2206.08358)]
+[[Code](https://github.com/amazon-research/mix-generation)]
+
+* **VLMixer: Unpaired Vision-Language Pre-training via Cross-Modal CutMix**<br>
+*Teng Wang, Wenhao Jiang, Zhichao Lu, Feng Zheng, Ran Cheng, Chengguo Yin, Ping Luo*<br>
+arXiv'2022 [[Paper](https://arxiv.org/abs/2206.08919)]
+
+* **Geodesic Multi-Modal Mixup for Robust Fine-Tuning**<br>
+*Changdae Oh, Junhyuk So, Hoyoon Byun, YongTaek Lim, Minchul Shin, Jong-June Jeon, Kyungwoo Song*<br>
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2203.03897)]
+[[Code](https://github.com/changdaeoh/multimodal-mixup)]
+
+* **PowMix: A Versatile Regularizer for Multimodal Sentiment Analysis**<br>
+*Efthymios Georgiou, Yannis Avrithis, Alexandros Potamianos*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2312.12334)]
+   <details close>
+   <summary>PowMix Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/272e44b8-1872-4cdf-9a69-71e48cc428cd" /></p>
+   </details>
 
 ## Analysis of Mixup
 
 * **On Mixup Training: Improved Calibration and Predictive Uncertainty for Deep Neural Networks**<br>
 *Sunil Thulasidasan, Gopinath Chennupati, Jeff Bilmes, Tanmoy Bhattacharya, Sarah Michalak*<br>
-NeurIPS'2019 [[Paper](https://arxiv.org/abs/1905.11001)] [[Code](https://github.com/paganpasta/onmixup)]
+NeurIPS'2019 [[Paper](https://arxiv.org/abs/1905.11001)]
+[[Code](https://github.com/paganpasta/onmixup)]
    <details close>
    <summary>Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204825679-ee39834f-7346-4465-b58e-c4909dec767f.png" /></p>
    </details>
-* Luigi Carratino, Moustapha Cissé, Rodolphe Jenatton, Jean-Philippe Vert.
-   - On Mixup Regularization. [[ArXiv'2020](https://arxiv.org/abs/2006.06049)]
+
+* **On Mixup Regularization**<br>
+*Luigi Carratino, Moustapha Cissé, Rodolphe Jenatton, Jean-Philippe Vert*<br>
+ArXiv'2020 [[Paper](https://arxiv.org/abs/2006.06049)]
    <details close>
    <summary>Framework</summary>
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204826066-62a66221-b023-462d-a9b7-89bbd7614425.png" /></p>
    </details>
-* Linjun Zhang, Zhun Deng, Kenji Kawaguchi, Amirata Ghorbani, James Zou.
-   - How Does Mixup Help With Robustness and Generalization? [[ICLR'2021](https://arxiv.org/abs/2010.04819)]
+
+* **How Does Mixup Help With Robustness and Generalization?**<br>
+*Linjun Zhang, Zhun Deng, Kenji Kawaguchi, Amirata Ghorbani, James Zou*<br>
+ICLR'2021 [[Paper](https://arxiv.org/abs/2010.04819)]
    <details close>
    <summary>Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204826319-9ae701af-ad99-4780-85a6-492839c5bcbf.png" /></p>
    </details>
-* Muthu Chidambaram, Xiang Wang, Yuzheng Hu, Chenwei Wu, Rong Ge.
-   - Towards Understanding the Data Dependency of Mixup-style Training. [[ICLR'2022](https://openreview.net/pdf?id=ieNJYujcGDO)] [[code](https://github.com/2014mchidamb/Mixup-Data-Dependency)]
+
+* **Towards Understanding the Data Dependency of Mixup-style Training**<br>
+*Muthu Chidambaram, Xiang Wang, Yuzheng Hu, Chenwei Wu, Rong Ge*<br>
+ICLR'2022 [[Paper](https://openreview.net/pdf?id=ieNJYujcGDO)]
+[[Code](https://github.com/2014mchidamb/Mixup-Data-Dependency)]
    <details close>
    <summary>Framework</summary>
    <p align="center"><img width="65%" src="https://user-images.githubusercontent.com/44519745/204826671-e012b918-5a14-4b5f-929b-b2f079b79d3f.png" /></p>
    </details>
-* Linjun Zhang, Zhun Deng, Kenji Kawaguchi, James Zou.
-   - When and How Mixup Improves Calibration. [[ICML'2022](https://arxiv.org/abs/2102.06289)]
+
+* **When and How Mixup Improves Calibration**<br>
+*Linjun Zhang, Zhun Deng, Kenji Kawaguchi, James Zou*<br>
+ICML'2022 [[Paper](https://arxiv.org/abs/2102.06289)]
    <details close>
    <summary>Framework</summary>
    <p align="center"><img width="50%" src="https://user-images.githubusercontent.com/44519745/204827323-b854f0a0-803f-46f8-9b74-44970998b311.png" /></p>
    </details>
-* Zixuan Liu, Ziqiao Wang, Hongyu Guo, Yongyi Mao.
-   - Over-Training with Mixup May Hurt Generalization. [[ICLR'2023](https://openreview.net/forum?id=JmkjrlVE-DG)]
+
+* **Over-Training with Mixup May Hurt Generalization**<br>
+*Zixuan Liu, Ziqiao Wang, Hongyu Guo, Yongyi Mao*<br>
+ICLR'2023 [[Paper](https://openreview.net/forum?id=JmkjrlVE-DG)]
    <details close>
    <summary>Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/216831436-704b0427-61a0-42ff-b4e6-ab361be8b634.png" /></p>
    </details>
-* Junsoo Oh, Chulhee Yun.
-   - Provable Benefit of Mixup for Finding Optimal Decision Boundaries. [[ICML'2023](https://chulheeyun.github.io/publication/oh2023provable/)]
-* Deng-Bao Wang, Lanqing Li, Peilin Zhao, Pheng-Ann Heng, Min-Ling Zhang.
-   - On the Pitfall of Mixup for Uncertainty Calibration. [[CVPR'2023](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_On_the_Pitfall_of_Mixup_for_Uncertainty_Calibration_CVPR_2023_paper.pdf)]
-* Hongjun Choi, Eun Som Jeon, Ankita Shukla, Pavan Turaga.
-   - Understanding the Role of Mixup in Knowledge Distillation: An Empirical Study. [[WACV'2023](https://arxiv.org/abs/2211.03946)] [[code](https://github.com/hchoi71/mix-kd)]
-* Soyoun Won, Sung-Ho Bae, Seong Tae Kim.
-   - Analyzing Effects of Mixed Sample Data Augmentation on Model Interpretability. [[arXiv'2023](https://arxiv.org/abs/2303.14608)]
+
+* **Provable Benefit of Mixup for Finding Optimal Decision Boundaries**<br>
+*Junsoo Oh, Chulhee Yun*<br>
+ICML'2023 [[Paper](https://chulheeyun.github.io/publication/oh2023provable/)]
+
+* **On the Pitfall of Mixup for Uncertainty Calibration**<br>
+*Deng-Bao Wang, Lanqing Li, Peilin Zhao, Pheng-Ann Heng, Min-Ling Zhang*<br>
+CVPR'2023 [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_On_the_Pitfall_of_Mixup_for_Uncertainty_Calibration_CVPR_2023_paper.pdf)]
+
+* **Understanding the Role of Mixup in Knowledge Distillation: An Empirical Study**<br>
+*Hongjun Choi, Eun Som Jeon, Ankita Shukla, Pavan Turaga*<br>
+WACV'2023 [[Paper](https://arxiv.org/abs/2211.03946)]
+[[Code](https://github.com/hchoi71/mix-kd)]
+
+* **Analyzing Effects of Mixed Sample Data Augmentation on Model Interpretability**<br>
+*Soyoun Won, Sung-Ho Bae, Seong Tae Kim*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2303.14608)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Natural Language Processing
 
-* Hongyu Guo, Yongyi Mao, Richong Zhang.
-   - Augmenting Data with Mixup for Sentence Classification: An Empirical Study. [[arXiv'2019](https://arxiv.org/abs/1905.08941)] [[code](https://github.com/dsfsi/textaugment)]
-* **Mixup-Transformer** Lichao Sun, Congying Xia, Wenpeng Yin, Tingting Liang, Philip S. Yu, Lifang He.
-   - Mixup-Transformer: Dynamic Data Augmentation for NLP Tasks. [[COLING'2020](https://arxiv.org/abs/2010.02394)]
-* **Calibrated-BERT-Fine-Tuning** Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao, Chao Zhang.
-   - Calibrated Language Model Fine-Tuning for In- and Out-of-Distribution Data. [[EMNLP'2020](https://arxiv.org/abs/2010.11506)] [[code](https://github.com/Lingkai-Kong/Calibrated-BERT-Fine-Tuning)]
-* **EMix**: Amit Jindal, Arijit Ghosh Chowdhury, Aniket Didolkar, Di Jin, Ramit Sawhney, Rajiv Ratn Shah.
-   - Augmenting NLP Models using Latent Feature Interpolations. [[COLING'2020](https://aclanthology.org/2020.coling-main.611/)]
-* **MixText**: Jiaao Chen, Zichao Yang, Diyi Yang.
-   - MixText: Linguistically-informed Interpolation of Hidden Space for Semi-Supervised Text Classification. [[ACL'2020](https://arxiv.org/abs/2004.12239)] [[code](https://github.com/GT-SALT/MixText)]
-* **TreeMix**: Le Zhang, Zichao Yang, Diyi Yang.
-   - TreeMix: Compositional Constituency-based Data Augmentation for Natural Language Understanding. [[NAALC'2022](https://arxiv.org/abs/2205.06153)] [[code](https://github.com/magiccircuit/treemix)]
-* **STEMM** Qingkai Fang, Rong Ye, Lei Li, Yang Feng, Mingxuan Wang.
-   - STEMM: Self-learning with Speech-text Manifold Mixup for Speech Translation. [[ACL'2022](https://arxiv.org/abs/2010.02394)] [[code](https://github.com/ictnlp/STEMM)]
-* **X-Mixup** Huiyun Yang, Huadong Chen, Hao Zhou, Lei Li.
-   - Enhancing Cross-lingual Transfer by Manifold Mixup. [[ICLR'2022](https://arxiv.org/abs/2205.04182)] [[code](https://github.com/yhy1117/x-mixup)]
+* **Augmenting Data with Mixup for Sentence Classification: An Empirical Study**<br>
+*Hongyu Guo, Yongyi Mao, Richong Zhang*<br>
+arXiv'2019 [[Paper](https://arxiv.org/abs/1905.08941)]
+[[Code](https://github.com/dsfsi/textaugment)]
+
+* **Mixup-Transformer: Dynamic Data Augmentation for NLP Tasks**<br>
+*Lichao Sun, Congying Xia, Wenpeng Yin, Tingting Liang, Philip S. Yu, Lifang He*<br>
+COLING'2020 [[Paper](https://arxiv.org/abs/2010.02394)]
+
+* **Calibrated Language Model Fine-Tuning for In- and Out-of-Distribution Data**<br>
+*Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao, Chao Zhang*<br>
+EMNLP'2020 [[Paper](https://arxiv.org/abs/2010.11506)]
+[[Code](https://github.com/Lingkai-Kong/Calibrated-BERT-Fine-Tuning)]
+
+* **Augmenting NLP Models using Latent Feature Interpolations**<br>
+*Amit Jindal, Arijit Ghosh Chowdhury, Aniket Didolkar, Di Jin, Ramit Sawhney, Rajiv Ratn Shah*<br>
+COLING'2020 [[Paper](https://aclanthology.org/2020.coling-main.611/)]
+
+* **MixText: Linguistically-informed Interpolation of Hidden Space for Semi-Supervised Text Classification**<br>
+*Jiaao Chen, Zichao Yang, Diyi Yang*<br>
+ACL'2020 [[Paper](https://arxiv.org/abs/2004.12239)]
+[[Code](https://github.com/GT-SALT/MixText)]
+
+* **TreeMix: Compositional Constituency-based Data Augmentation for Natural Language Understanding**<br>
+*Le Zhang, Zichao Yang, Diyi Yang*<br>
+NAALC'2022 [[Paper](https://arxiv.org/abs/2205.06153)]
+[[Code](https://github.com/magiccircuit/treemix)]
+
+* **STEMM: Self-learning with Speech-text Manifold Mixup for Speech Translation**<br>
+*Qingkai Fang, Rong Ye, Lei Li, Yang Feng, Mingxuan Wang*<br>
+ACL'2022 [[Paper](https://arxiv.org/abs/2010.02394)]
+[[Code](https://github.com/ictnlp/STEMM)]
+
+* **Enhancing Cross-lingual Transfer by Manifold Mixup**<br>
+*Huiyun Yang, Huadong Chen, Hao Zhou, Lei Li*<br>
+ICLR'2022 [[Paper](https://arxiv.org/abs/2205.04182)]
+[[Code](https://github.com/yhy1117/x-mixup)]
 
 ## Graph Representation Learning
 
