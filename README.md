@@ -282,6 +282,14 @@ NIPS'2022 [[Paper](https://arxiv.org/abs/2206.14502)]
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204571630-e8407bd7-ca27-44de-baca-5d88ca2004a6.png" /></p>
    </details>
 
+* **ContextMix: A context-aware data augmentation method for industrial visual inspection systems**<br>
+*Hyungmin Kim, Donghun Kim, Pyunghwan Ahn, Sungho Suh, Hansang Cho, Junmo Kim*<br>
+EAAI'2024 [[Paper](https://arxiv.org/abs/2401.10050)]
+   <details close>
+   <summary>ConvtextMix Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/a2b50a9e-ca22-4c1f-9ba9-a3863b84a71a" /></p>
+   </details>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 #### **Saliency-guided Policies**
@@ -516,9 +524,18 @@ ICME'2023 [[Paper](https://ieeexplore.ieee.org/abstract/document/10219625)]
    <p align="center"><img width="75%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264142659-b8e2eef2-f6ea-4b03-bc03-0d2c08212f3a.png" /></p>
    </details>
 
+* **LGCOAMix: Local and Global Context-and-Object-Part-Aware Superpixel-Based Data Augmentation for Deep Visual Recognition**<br>
+*Fadi Dornaika, Danyang Sun*<br>
+TIP'2023 [[Paper](https://ieeexplore.ieee.org/document/10348509)]
+[[Code](https://github.com/DanielaPlusPlus/LGCOAMix)]
+   <details close>
+   <summary>LGCOAMix Framework</summary>
+   <p align="center"><img width="95%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/802bdd05-dd5d-4d84-a66a-18d0fe9f2fa9" /></p>
+   </details>
+
 * **Adversarial AutoMixup**<br>
 *Huafeng Qin, Xin Jin, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao*<br>
-arXiv'2023 [[Paper](https://arxiv.org/abs/2312.11954)]
+ICLR'2024 [[Paper](https://arxiv.org/abs/2312.11954)]
 [[Code](https://github.com/jinxins/adversarial-automixup)]
    <details close>
    <summary>AdAutoMix Framework</summary>
@@ -1171,6 +1188,10 @@ WACV'2023 [[Paper](https://arxiv.org/abs/2211.03946)]
 * **Analyzing Effects of Mixed Sample Data Augmentation on Model Interpretability**<br>
 *Soyoun Won, Sung-Ho Bae, Seong Tae Kim*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2303.14608)]
+
+* **Selective Mixup Helps with Distribution Shifts, But Not (Only) because of Mixup**<br>
+*Damien Teney, Jindong Wang, Ehsan Abbasnejad*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2305.16817)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
