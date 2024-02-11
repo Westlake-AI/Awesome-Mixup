@@ -484,6 +484,7 @@ AAAI'2023 [[Paper](https://arxiv.org/abs/2306.16612)]
 * **MixPro: Data Augmentation with MaskMix and Progressive Attention Labeling for Vision Transformer**<br>
 *Qihao Zhao, Yangyu Huang, Wei Hu, Fan Zhang, Jun Liu*<br>
 ICLR'2023 [[Paper](https://openreview.net/forum?id=dRjWsd3gwsm)]
+[[Code](https://github.com/fistyee/MixPro)]
    <details close>
    <summary>MixPro Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/224795935-afb936b2-fc77-4018-a681-72887f96fa59.png" /></p>
@@ -1015,6 +1016,15 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2308.16573)]
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/268410560-a45c03d9-beb1-4b74-a34b-4d1ecd356de9.png" /></p>
    </details>
 
+* **Mixed Pseudo Labels for Semi-Supervised Object Detection**<br>
+*Zeming Chen, Wenwei Zhang, Xinjiang Wang, Kai Chen, Zhi Wang*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.07006)]
+[[Code](https://github.com/czm369/mixpl)]
+   <details close>
+   <summary>MixPL Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/c1ac594f-18bb-465b-b0e7-e96249231e2c" /></p>
+   </details>
+
 ## Mixup for Regression
 
 * **RegMix: Data Mixing Augmentation for Regression**<br>
@@ -1060,6 +1070,10 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2311.01434)]
 * **OmniMixup: Generalize Mixup with Mixing-Pair Sampling Distribution**<br>
 *Anonymous*<br>
 Openreview'2023 [[Paper](https://openreview.net/forum?id=6Uc7Fgwrsm)]
+
+* **Augment on Manifold: Mixup Regularization with UMAP**<br>
+*Yousef El-Laham, Elizabeth Fons, Dillon Daudert, Svitlana Vyetrenko*<br>
+ICASSP'2024 [[Paper](https://arxiv.org/abs/2210.01189)]
 
 ## Mixup for Robustness
 
