@@ -20,7 +20,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
   - [Fundermental Methods](#fundermental-methods)
     - [Sample Mixup Methods](#sample-mixup-methods)
       - [**Pre-defined Policies**](#pre-defined-policies)
-      - [**Saliency-guided Policies**](#saliency-guided-policies)
+      - [**Adaptive Policies**](#adaptive-policies)
     - [Label Mixup Methods](#label-mixup-methods)
   - [Mixup for Self-supervised Learning](#mixup-for-self-supervised-learning)
   - [Mixup for Semi-supervised Learning](#mixup-for-semi-supervised-learning)
@@ -292,7 +292,7 @@ EAAI'2024 [[Paper](https://arxiv.org/abs/2401.10050)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-#### **Saliency-guided Policies**
+#### **Adaptive Policies**
 
 * **SaliencyMix: A Saliency Guided Data Augmentation Strategy for Better Regularization**<br>
 *A F M Shahab Uddin and Mst. Sirazam Monira and Wheemyung Shin and TaeChoong Chung and Sung-Ho Bae*<br>
@@ -532,6 +532,14 @@ TIP'2023 [[Paper](https://ieeexplore.ieee.org/document/10348509)]
    <details close>
    <summary>LGCOAMix Framework</summary>
    <p align="center"><img width="95%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/802bdd05-dd5d-4d84-a66a-18d0fe9f2fa9" /></p>
+   </details>
+
+* **Catch-Up Mix: Catch-Up Class for Struggling Filters in CNN**<br>
+*Minsoo Kang, Minkoo Kang, Suhyun Kim*<br>
+AAAI'2024 [[Paper](https://arxiv.org/abs/2401.13193)]
+   <details close>
+   <summary>Catch-Up-Mix Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/459a5d2b-cc74-4bd0-8cd2-46313652a9b8" /></p>
    </details>
 
 * **Adversarial AutoMixup**<br>
@@ -1268,11 +1276,6 @@ NeurIPS'2023 [[Paper](https://arxiv.org/abs/2202.07179)]
 *Connor Shorten and Taghi Khoshgoftaar*<br>
 Journal of Big Data'2019 [[Paper](https://www.researchgate.net/publication/334279066_A_survey_on_Image_Data_Augmentation_for_Deep_Learning)]
 
-* **Survey: Image Mixing and Deleting for Data Augmentation**<br>
-*Humza Naveed, Saeed Anwar, Munawar Hayat, Kashif Javed, Ajmal Mian*<br>
-ArXiv'2021 [[Paper](https://arxiv.org/abs/2106.07085)]
-[[Code](https://github.com/humza909/survery-image-mixing-and-deleting-for-data-augmentation)]
-
 * **An overview of mixing augmentation methods and augmentation strategies**<br>
 *Dominik Lewy and Jacek Ma ́ndziuk*<br>
 Artificial Intelligence Review'2022 [[Paper](https://link.springer.com/article/10.1007/s10462-022-10227-z)]
@@ -1285,6 +1288,14 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.08610)]
 *Chengtai Cao, Fan Zhou, Yurou Dai, Jianping Wang*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.10888)]
 [[Code](https://github.com/ChengtaiCao/Awesome-Mix)]
+
+* **A Survey of Automated Data Augmentation for Image Classification: Learning to Compose, Mix, and Generate**<br>
+*Tsz-Him Cheung, Dit-Yan Yeung*<br>
+TNNLS'2023 [[Paper](https://ieeexplore.ieee.org/abstract/document/10158722)]
+
+* **Survey: Image Mixing and Deleting for Data Augmentation**<br>
+*Humza Naveed, Saeed Anwar, Munawar Hayat, Kashif Javed, Ajmal Mian*<br>
+Engineering Applications of Artificial Intelligence'2024 [[Paper](https://arxiv.org/abs/2106.07085)]
 
 ## Benchmark
 
