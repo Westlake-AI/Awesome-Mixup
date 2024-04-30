@@ -7,7 +7,7 @@
 
 **We summarize awesome mixup data augmentation methods for visual representation learning in various scenarios.**
 
-The list of awesome mixup augmentation methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/docs/en/awesome_mixups) in [OpenMixup](https://github.com/Westlake-AI/openmixup), and we will add more papers according to [Awesome-Mix](https://github.com/ChengtaiCao/Awesome-Mix). We first summarize fundermental mixup methods from two aspects: *sample mixup policy* and *label mixup policy*. Then, we summarize mixup techniques used in downstream tasks.
+The list of awesome mixup augmentation methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/docs/en/awesome_mixups) in [OpenMixup](https://github.com/Westlake-AI/openmixup) and [Awesome-Mix](https://github.com/ChengtaiCao/Awesome-Mix), and we are working on a comperhensive survey on mixup augmentations. We first summarize fundamental mixup methods from two aspects: *sample mixup policy* and *label mixup policy*. Then, we summarize mixup techniques for self- and semi-supervised learning and various downstream tasks.
 
 * To find related papers and their relationships, check out [Connected Papers](https://www.connectedpapers.com/), which visualizes the academic field in a graph representation.
 * To export BibTeX citations of papers, check out [ArXiv](https://arxiv.org/) or [Semantic Scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
@@ -924,6 +924,15 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.12243)]
    <p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/250166870-98280c28-2736-4f08-a418-d28e9ba3a588.png" /></p>
    </details>
 
+* **Guarding Barlow Twins Against Overfitting with Mixed Samples**<br>
+*Wele Gedara Chaminda Bandara, Celso M. De Melo, Vishal M. Patel*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.02151)]
+[[Code](https://github.com/wgcban/mix-bt)]
+   <details close>
+   <summary>PatchMix Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/342f7dba-ccff-4b22-99e7-3d1d965ea1ee" /></p>
+   </details>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Mixup for Semi-supervised Learning
@@ -1320,7 +1329,7 @@ PUBLISH'YEAR [[Paper](link)] [[Code](link)]
    </details>
 ```
 
-Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)), Zicheng Liu ([@pone7](https://github.com/pone7)), Zedong Wang ([@Jacky1128](https://github.com/Jacky1128)). We thank all contributors for `Awesome-Mixup`!
+Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)), Zicheng Liu ([@pone7](https://github.com/pone7)), and Zedong Wang ([@Jacky1128](https://github.com/Jacky1128)). We thank all contributors for `Awesome-Mixup`!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
