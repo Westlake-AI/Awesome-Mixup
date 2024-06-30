@@ -1042,6 +1042,15 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.07006)]
    <p align="center"><img width="90%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/c1ac594f-18bb-465b-b0e7-e96249231e2c" /></p>
    </details>
 
+* **PCLMix: Weakly Supervised Medical Image Segmentation via Pixel-Level Contrastive Learning and Dynamic Mix Augmentation**<br>
+*Yu Lei, Haolun Luo, Lituan Wang, Zhenwei Zhang, Lei Zhang*<br>
+ArXiv'2024 [[Paper](https://arxiv.org/abs/2405.06288)]
+[[Code](https://github.com/Torpedo2648/PCLMix)]
+   <details close>
+   <summary>PCLMix Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/e41b7e65-962b-49fa-b1be-6e789e8b244e" /></p>
+   </details>
+
 ## Mixup for Regression
 
 * **RegMix: Data Mixing Augmentation for Regression**<br>
@@ -1124,6 +1133,13 @@ NeurIPS'2021 [[Paper](https://arxiv.org/abs/2111.05073)]
 * **On the benefits of defining vicinal distributions in latent space**<br>
 *Puneet Mangla, Vedant Singh, Shreyas Jayant Havaldar, Vineeth N Balasubramanian*<br>
 CVPRW'2021 [[Paper](https://arxiv.org/abs/2003.06566)]
+
+## Low-level Vision
+
+* **Robust Image Denoising through Adversarial Frequency Mixup**<br>
+*Donghun Ryou, Inju Ha, Hyewon Yoo, Dongwan Kim, Bohyung Han*<br>
+CVPR'2024 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ryou_Robust_Image_Denoising_through_Adversarial_Frequency_Mixup_CVPR_2024_paper.pdf)]
+[[Code](https://github.com/dhryougit/AFM)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
