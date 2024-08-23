@@ -1973,7 +1973,7 @@ EAAI'2024 [[Paper](https://arxiv.org/abs/2106.07085)]
 
 * **OpenMixup: A Comprehensive Mixup Benchmark for Visual Classification**<br>
 *Siyuan Li, Zedong Wang, Zicheng Liu, Di Wu, Cheng Tan, Weiyang Jin, Stan Z. Li*<br>
-NIPS'2024 [[Paper](https://arxiv.org/abs/2209.04851)]
+arXiv'2024 [[Paper](https://arxiv.org/abs/2209.04851)]
 [[Code](https://github.com/Westlake-AI/openmixup)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
