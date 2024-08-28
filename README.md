@@ -114,7 +114,7 @@ arXiv'2021 [[Paper](https://openreview.net/pdf?id=0n3BaVlNsHI)]
 
 * **PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures**<br>
 *Dan Hendrycks, Andy Zou, Mantas Mazeika, Leonard Tang, Bo Li, Dawn Song, Jacob Steinhardt*<br>
-arXiv'2021 [[Paper](https://arxiv.org/abs/2112.05135)]
+CVPR'2022 [[Paper](https://arxiv.org/abs/2112.05135)]
 [[Code](https://github.com/andyzoujm/pixmix)]
    <details close>
    <summary>PixMix Framework</summary>
