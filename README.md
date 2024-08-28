@@ -623,7 +623,7 @@ CVPRW'2021 [[Paper](https://arxiv.org/abs/2003.06566v1)]
 
 * **DiffuseMix: Label-Preserving Data Augmentation with Diffusion Models**<br>
 *Khawar Islam, Muhammad Zaigham Zaheer, Arif Mahmood, Karthik Nandakumar*<br>
-ECCV'2020 [[Paper](https://arxiv.org/abs/2405.14881)]
+CVPR'2024 [[Paper](https://arxiv.org/abs/2405.14881)]
 [[Code](https://github.com/khawar-islam/diffuseMix)]
    <details close>
    <summary>DiffuseMix Framework</summary>
