@@ -59,6 +59,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
   - [Analysis and Theorem](#analysis-and-theorem)
   - [Survey](#survey)
   - [Benchmark](#benchmark)
+  - [Classification Results on Datasets](classification-results-on-datasets)
   - [Contribution](#contribution)
   - [License](#license)
   - [Acknowledgement](#acknowledgement)
@@ -1975,6 +1976,60 @@ EAAI'2024 [[Paper](https://arxiv.org/abs/2106.07085)]
 *Siyuan Li, Zedong Wang, Zicheng Liu, Di Wu, Cheng Tan, Weiyang Jin, Stan Z. Li*<br>
 arXiv'2024 [[Paper](https://arxiv.org/abs/2209.04851)]
 [[Code](https://github.com/Westlake-AI/openmixup)]
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Sample Mixup Policies in SL
+
+**Mixup methods classification results on general datasets: CIFAR10 \ CIFAR100, TinyImageNet, and ImageNet-1K. $(\cdot)$ denotes training epochs based on ResNet18 (R18), ResNet50 (R50), ResNeXt50 (RX50), PreActResNet18 (PreActR18), and Wide-ResNet28 (WRN28-10, WRN28-8).**
+
+| Method   | Publish  | CIFAR10 | CIFAR100  | CIFAR100 | CIFAR100   | CIFAR100   | CIFAR100 | Tiny-ImageNet| Tiny-ImageNet | ImageNet-1K | ImageNet-1K |
+|----------|----------|---------|-----------|----------|------------|------------|----------|--------------|---------------|-------------|-------------|
+|          |          | R18     | R18       | RX50     | PreActR18  | WRN28-10   | WRN28-8  | R18          | RX50          | R18         | R50         |
+| MixUp    | ICLR'2018| 96.62(800) | 79.12(800) | 82.10(800) | 78.90(200) | 82.50(200)  | 82.82(400) | 63.86(400) | 66.36(400) | 69.98(100) | 77.12(100) |
+| CutMix   | ICCV'2019| 96.68(800) | 78.17(800) | 78.32(800) | 76.80(1200)| 83.40(200)  | 84.45(400) | 65.53(400) | 66.47(400) | 68.95(100) | 77.17(100) |
+| Manifold Mixup | ICML'2019 | 96.71(800) | 80.35(800) | 82.88(800) | 79.66(1200) | 81.96(1200) | 83.24(400) | 64.15(400) | 67.30(400) | 69.98(100) | 77.01(100) |
+| FMix     | arXiv'2020  | 96.18(800) | 79.69(800) | 79.02(800) | 79.85(200) | 82.03(200)  | 84.21(400) | 63.47(400) | 65.08(400) | 69.96(100) | 77.19(100) |
+| SmoothMix | CVPRW'2020 | 96.17(800) | 78.69(800) | 78.95(800)  | - | - | 82.09(400) | - | - | - | 77.66(300) |
+| GridMix  | PR'2020     | 96.56(800) | 78.72(800) | 78.90(800)  | - | - | 84.24(400) | 64.79(400) | - | - | - |
+| ResizeMix | arXiv'2020 | 96.76(800) | 80.01(800) | 80.35(800)  | - | 85.23(200)  | 84.87(400) | 63.47(400) | 65.87(400) | 69.50(100) | 77.42(100) |
+| SaliencyMix | ICLR'2021  | 96.20(800)   | 79.12(800)  | 78.77(800) | 80.31(300) | 83.44(200)  | 84.35(400) | 64.60(400) | 66.55(400) | 69.16(100) | 77.14(100) |
+| Attentive-CutMix | ICASSP'2020 | 96.63(800)n| 78.91(800) | 80.54(800) | - | - | 84.34(400) | 64.01(400) | 66.84(400) | - | 77.46(100) |
+| Saliency Grafting | AAAI'2022 | - | 80.83(800) | 83.10(800) | - | 84.68(300)  | - | 64.84(600) | 67.83(400) | - | 77.65(100) |
+| PuzzleMix | ICML'2020 | 97.10(800) | 81.13(800) | 82.85(800) | 80.38(1200) | 84.05(200)  | 85.02(400) | 65.81(400) | 67.83(400) | 70.12(100) | 77.54(100) |
+| Co-Mix | ICLR'2021 | 97.15(800) | 81.17(800) | 82.91(800) | 80.13(300) | - | 85.05(400) | 65.92(400) | 68.02(400) | - | 77.61(100) |
+| SuperMix | CVPR'2021 | - | - | - | 79.07(2000) | 93.60(600)  | - | - | - | - | 77.60(600) |
+| RecursiveMix | NIPS'2022 | - | 81.36(200) | - | 80.58(2000) | - | - | - | - | - | 79.20(300) |
+| AutoMix | ECCV'2022 | 97.34(800) | 82.04(800) | 83.64(800) | - | - | 85.18(400) | 67.33(400) | 70.72(400) | 70.50(100) | 77.91(100) |
+| SAMix | arXiv'2021 | 97.50(800) | 82.30(800) | 84.42(800) | - | - | 85.50(400) | 68.89(400) | 72.18(400) | 70.83(100) | 78.06(100) |
+| AlignMixup | CVPR'2022 | - | - | - | 81.71(2000) | - | - | - | - | - | 78.00(100) |
+| MultiMix | NIPS'2023 | - | - | - | 81.82(2000) | - | - | - | - | - | 78.81(300) |
+| GuidedMixup | AAAI'2023 | - | - | - | 81.20(300) | 84.02(200)  | - | - | - | - | 77.53(100) |
+| Catch-up Mix | AAAI'2023 | - | 82.10(400) | 83.56(400) | 82.24(2000) | - | - | 68.84(400) | - | - | 78.71(300) |
+| LGCOAMix | TIP'2024 | - | 82.34(800) | 84.11(800) | - | - | - | 68.27(400) | 73.08(400) | - | - |
+| AdAutoMix | ICLR'2024 | 97.55(800) | 82.32(800) | 84.42(800) | - | - | 85.32(400) | 69.19(400) | 72.89(400) | 70.86(100) | 78.04(100) |
+
+**Mixup methods classification results on ImageNet-1K dataset use ViT-based models: DeiT, Swin Transformer (Swin), Pyramid Vision Transformer (PVT), and ConvNext trained 300 epochs.**
+
+| Method     | Publish | ImageNet-1K | ImageNet-1K | ImageNet-1K | ImageNet-1K | ImageNet-1K | ImageNet-1K | ImageNet-1K |
+|-----------------------------|---------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+|            |         | DieT-Tiny   | DieT-Small | DieT-Base | Swin-Tiny | PVT-Tiny | PVT-Small | ConvNeXt-Tiny |
+| MixUp  | ICLR'2018 | 74.69 | 77.72 | 78.98 | 81.01 | 75.24 | 78.69 | 80.88 |
+| CutMix | ICCV'2019 | 74.23 | 80.13 | 81.61 | 81.23 | 75.53 | 79.64 | 81.57 |
+| FMix   | arXiv'2020 | 74.41 | 77.37 | - | 79.60 | 75.28 | 78.72 | 81.04 |
+| ResizeMix | arXiv'2020 | 74.79 | 78.61 | 80.89 | 81.36 | 76.05 | 79.55 | 81.64 |
+| SaliencyMix  | ICLR'2021 | 74.17 | 79.88 | 80.72 | 81.37 | 75.71 | 79.69 | 81.33 |
+| Attentive-CutMix | ICASSP'2020 | 74.07 | 80.32 | 82.42 | 81.29 | 74.98 | 79.84 | 81.14 |
+| PuzzleMix | ICML'2020 | 73.85 | 80.45 | 81.63 | 81.47 | 75.48 | 79.70 | 81.48 |
+| AutoMix   | ECCV'2022 | 75.52 | 80.78 | 82.18 | 81.80 | 76.38 | 80.64 | 82.28 |
+| SAMix     | arXiv'2021 | 75.83 | 80.94 | 82.85 | 81.87 | 76.60 | 80.78 | 82.35 |
+| TransMix  | CVPR'2022 | 74.56 | 80.68 | 82.51 | 81.80 | 75.50 | 80.50 | - |
+| TokenMix  | ECCV'2022 | 75.31 | 80.80 | 82.90 | 81.60 | 75.60 | - | 73.97 |
+| TL-Align  | ICCV'2023 | 73.20 | 80.60 | 82.30 | 81.40 | 75.50 | 80.40 | - |
+| SMMix     | ICCV'2023 | 75.56 | 81.10 | 82.90 | 81.80 | 75.60 | 81.03 | - |
+| Mixpro    | ICLR'2023 | 73.80 | 81.30 | 82.90 | 82.80 | 76.70 | 81.20 | - |
+| LUMix     | ICASSP'2024 | - | 80.60 | 80.20 | 81.70 | - | - | 82.50 |
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
