@@ -1985,7 +1985,7 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2209.04851)]
 **Mixup methods classification results on general datasets: CIFAR10 \ CIFAR100, TinyImageNet, and ImageNet-1K. $(\cdot)$ denotes training epochs based on ResNet18 (R18), ResNet50 (R50), ResNeXt50 (RX50), PreActResNet18 (PreActR18), and Wide-ResNet28 (WRN28-10, WRN28-8).**
 
 | Method   | Publish  | CIFAR10 | CIFAR100  | CIFAR100 | CIFAR100   | CIFAR100   | CIFAR100 | Tiny-ImageNet| Tiny-ImageNet | ImageNet-1K | ImageNet-1K |
-|----------|----------|---------|-----------|----------|------------|------------|----------|--------------|---------------|-------------|-------------|
+|:--------:|:--------:|:-------:|:---------:|:--------:|:----------:|:----------:|:--------:|:------------:|:-------------:|:-----------:|:-----------:|
 |          |          | R18     | R18       | RX50     | PreActR18  | WRN28-10   | WRN28-8  | R18          | RX50          | R18         | R50         |
 | MixUp    | ICLR'2018| 96.62(800) | 79.12(800) | 82.10(800) | 78.90(200) | 82.50(200)  | 82.82(400) | 63.86(400) | 66.36(400) | 69.98(100) | 77.12(100) |
 | CutMix   | ICCV'2019| 96.68(800) | 78.17(800) | 78.32(800) | 76.80(1200)| 83.40(200)  | 84.45(400) | 65.53(400) | 66.47(400) | 68.95(100) | 77.17(100) |
@@ -2013,7 +2013,7 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2209.04851)]
 **Mixup methods classification results on ImageNet-1K dataset use ViT-based models: DeiT, Swin Transformer (Swin), Pyramid Vision Transformer (PVT), and ConvNext trained 300 epochs.**
 
 | Method     | Publish | ImageNet-1K | ImageNet-1K | ImageNet-1K | ImageNet-1K | ImageNet-1K | ImageNet-1K | ImageNet-1K |
-|-----------------------------|---------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+|:----------:|:-------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
 |            |         | DieT-Tiny   | DieT-Small | DieT-Base | Swin-Tiny | PVT-Tiny | PVT-Small | ConvNeXt-Tiny |
 | MixUp  | ICLR'2018 | 74.69 | 77.72 | 78.98 | 81.01 | 75.24 | 78.69 | 80.88 |
 | CutMix | ICCV'2019 | 74.23 | 80.13 | 81.61 | 81.23 | 75.53 | 79.64 | 81.57 |
@@ -2040,7 +2040,7 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2209.04851)]
 **Summary of datasets for mixup methods tasks. Link to dataset websites is provided.**
 
 | Dataset | Type | Label | Task | Total data number | Link |
-|---------|------|-------|------|-------------------|------|
+|:-------:|:----:|:-----:|:----:|:-----------------:|:----:|
 | MINIST | Image | 10 | Classification | 70,000 | [MINIST](https://yann.lecun.com/exdb/mnist/) |
 | Fashion-MNIST | Image | 10 | Classification | 70,000 | [Fashion-MINIST](https://github.com/zalandoresearch/fashion-mnist) |
 | CIFAR10 | Image | 10 | Classification | 60,000 | [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) |
