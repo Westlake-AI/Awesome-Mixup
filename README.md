@@ -60,6 +60,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
   - [Survey](#survey)
   - [Benchmark](#benchmark)
   - [Classification Results on Datasets](classification-results-on-datasets)
+  - [Related Datasets Link](related-datasets-link)
   - [Contribution](#contribution)
   - [License](#license)
   - [Acknowledgement](#acknowledgement)
@@ -1979,7 +1980,7 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2209.04851)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Classification Results on Datasets
+## Classification Results on Datasets
 
 **Mixup methods classification results on general datasets: CIFAR10 \ CIFAR100, TinyImageNet, and ImageNet-1K. $(\cdot)$ denotes training epochs based on ResNet18 (R18), ResNet50 (R50), ResNeXt50 (RX50), PreActResNet18 (PreActR18), and Wide-ResNet28 (WRN28-10, WRN28-8).**
 
@@ -2030,6 +2031,75 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2209.04851)]
 | Mixpro    | ICLR'2023 | 73.80 | 81.30 | 82.90 | 82.80 | 76.70 | 81.20 | - |
 | LUMix     | ICASSP'2024 | - | 80.60 | 80.20 | 81.70 | - | - | 82.50 |
 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+## Related Datasets Link
+
+**Summary of datasets for mixup methods tasks. Link to dataset websites is provided.**
+
+| Dataset | Type | Label | Task | Total data number | Link |
+|---------|------|-------|------|-------------------|------|
+| MINIST | Image | 10 | Classification | 70,000 | [MINIST](https://yann.lecun.com/exdb/mnist/) |
+| Fashion-MNIST | Image | 10 | Classification | 70,000 | [Fashion-MINIST](https://github.com/zalandoresearch/fashion-mnist) |
+| CIFAR10 | Image | 10 | Classification | 60,000 | [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) |
+| CIFAR100 | Image | 100 | Classification | 60,000 | [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar.html) |
+| SVHN | Image | 10 | Classification | 630,420 | [SVHN](http://ufldl.stanford.edu/housenumbers/) |
+| GTSRB | Image | 43 | Classification | 51,839 | [GTSRB](https://benchmark.ini.rub.de/gtsrb_dataset.html) |
+| STL10 | Image | 10 | Classification | 113,000 | [STL10](https://cs.stanford.edu/~acoates/stl10/) |
+| Tiny-ImageNet | Image | 200 | Classification | 100,000 | [Tiny-ImageNet](http://cs231n.stanford.edu/tiny-imagenet-200.zip) |
+| ImageNet-1K | Image | 1,000 | Classification | 1,431,167 | [ImageNet-1K](https://image-net.org/challenges/LSVRC/2012/)|
+| CUB-200-2011 | Image | 200 | Classification, Object Detection | 11,788 | [CUB-200-2011](https://www.vision.caltech.edu/datasets/cub_200_2011/) |
+| FGVC-Aircraft | Image | 102 | Classification | 10,200 | [FGVC-Aircraft](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/) |
+| StanfordCars | Image | 196 | Classification | 16,185 | [StanfordCars](https://ai.stanford.edu/$/sim20jkrause/cars/car_dataset.html) |
+| Oxford Flowers | Image | 102 | Classification | 8,189 | [Oxford Flowers](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) |
+| Caltech101 | Image | 101 | Classification | 9,000 | [Caltech101](https://data.caltech.edu/records/mzrjq-6wc02) |
+| SOP | Image | 22,634 | Classification | 120,053 | [SOP](https://cvgl.stanford.edu/projects/lifted_struct/) |
+| Food-101 | Image | 101 | Classification | 101,000 | [Food-101](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/) |
+| SUN397 | Image | 899 | Classification | 130,519 | [SUN397](https://vision.princeton.edu/projects/2010/SUN//) |
+| iNaturalist | Image | 5,089 | Classification | 675,170 | [iNaturalist](https://github.com/visipedia/inat_comp/tree/master/2017) |
+| CIFAR-C | Image | 10,100 | Corruption Classification | 60,000 | [CIFAR-C](https://github.com/hendrycks/robustness/) |
+| CIFAR-LT | Image | 10,100 | Long-tail Classification | 60,000 | [CIFAR-LT](https://github.com/hendrycks/robustness/) |
+| ImageNet-1K-C | Image | 1,000 | Corruption Classification | 1,431,167 | [ImageNet-1K-C](https://github.com/hendrycks/robustness/) |
+| ImageNet-A | Image | 200 | Classification | 7,500 | [ImageNet-A](https://github.com/hendrycks/natural-adv-examples) |
+| Pascal VOC 102 | Image | 20 | Object Detection | 33,043 | [Pascal VOC 102](http://host.robots.ox.ac.uk/pascal/VOC/) |
+| MS-COCO Detection | Image | 91 | Object Detection | 164,062 | [MS-COCO Detection](https://cocodataset.org/detection-eval) |
+| DSprites | Image | 737,280*6 | Disentanglement | 737,280 | [DSprites](https://github.com/google-deepmind/dsprites-dataset) |
+| Place205 | Image | 205 | Recognition | 2,500,000 | [Place205](http://places.csail.mit.edu/downloadData.html) |
+| Pascal Context | Image | 459 | Segmentation | 10,103 | [Pascal Context](http://places.csail.mit.edu/downloadData.html) |
+| ADE20K | Image | 3,169 | Segmentation | 25,210 | [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/) |
+| Cityscapes | Image | 19 | Segmentation | 5,000 | [Cityscapes](https://deepmind.google/) |
+| StreetHazards | Image | 12 | Segmentation | 7,656 | [StreetHazards](https://www.v7labs.com/open-datasets/streethazards-dataset) |
+| PACS | Image | 7*4 | Domain Classification | 9,991 | [PACS](https://domaingeneralization.github.io/) |
+| BRACS | Medical Image | 7 | Classification | 4,539 | [BRACS](https://www.bracs.icar.cnr.it/) |
+| BACH | Medical Image | 4 | Classification | 400 | [BACH](https://iciar2018-challenge.grand-challenge.org/) |
+| CAME-Lyon16 | Medical Image   | 2 | Anomaly Detection | 360 | [CAME-Lyon16](https://camelyon16.grand-challenge.org/) |
+| Chest X-Ray | Medical Image   | 2 | Anomaly Detection | 5,856 | [Chest X-Ray](https://data.mendeley.com/datasets/rscbjbr9sj/2) |
+| BCCD | Medical Image | 4,888 | Object Detection | 364 | [BCCD](https://github.com/Shenggan/BCCD_Dataset) |
+| TJU600 | Palm-Vein Image | 600 | Classification | 12,000 | [TJU600](https://cslinzhang.github.io/ContactlessPalm/) |
+| VERA220 | Palm-Vein Image | 220 | Classification | 2,200 | [VERA220](https://www.idiap.ch/en/scientific-research/data/vera-palmvein) |
+| CoNLL2003 | Text | 4 | Classification | 2,302 | [CoNLL2003](https://data.deepai.org/conll2003.zip) |
+| 20 Newsgroups | Text | 20 | OOD Detection | 20,000 | [20 Newsgroups](http://qwone.com/~jason/20Newsgroups/) |
+| WOS | Text | 134 | OOD Detection | 46,985 | [WOS](http://archive.ics.uci.edu/index.php) |
+| SST-2 | Text | 2 | Sentiment Understanding | 68,800 | [SST-2](https://github.com/YJiangcm/SST-2-sentiment-analysis) |
+| Cora | Graph | 7 | Node Classification | 2,708 | [Cora](https://github.com/phanein/deepwalk) |
+| Citeseer | Graph | 6 | Node Classification | 3,312 | [Citeseer](https://csxstatic.ist.psu.edu/) |
+| PubMed | Graph | 3 | Node Classification | 19,717 | [PubMed](https://pubmed.ncbi.nlm.nih.gov) |
+| BlogCatalog | Graph | 39 | Node Classification | 10,312 | [BlogCatalog](https://figshare.com/articles/dataset/BlogCatalog_dataset/11923611?file=22349970) |
+| Google Commands | Speech | 30 | Classification | 65,000 | [Google Commands](https://research.google/blog/launching-the-speech-commands-dataset/) |
+| VoxCeleb2 | Speech | 6,112 | Sound Classification | 1,000,000+ | [VoxCeleb2](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/) |
+| VCTK | Speech | 110 | Enhancement | 44,000 | [VCTK](https://datashare.ed.ac.uk/handle/10283/2791) |
+| ModelNet40 | 3D Point Cloud  | 40 | Classification | 12,311 | [ModelNet40](https://modelnet.cs.princeton.edu/) |
+| ScanObjectNN | 3D Point Cloud  | 15 | Classification | 15,000 | [ScanObjectNN](https://hkust-vgd.github.io/scanobjectnn/) |
+| ShapeNet | 3D Point Cloud  | 16 | Recognition, Classification | 16,880 | [ShapeNet](https://shapenet.org/) |
+| KITTI360 | 3D Point Cloud  | 80,256 | Detection, Segmentation | 14,999 | [KITTI360](https://www.cvlibs.net/datasets/kitti/) |
+| UCF101 | Video | 101 | Action Recognition | 13,320 | [UCF101](https://www.crcv.ucf.edu/research/data-sets/ucf101/) |
+| Kinetics400 | Video | 400 | Action Recognition | 260,000 | [Kinetics400](https://deepmind.google/) |
+| Airfoil | Tabular | - | Regression | 1,503 | [Airfoil](https://archive.ics.uci.edu/dataset/291/airfoil+self+noise) |
+| NO2 | Tabular | - | Regression | 500 | [NO2](https://drive.google.com/drive/folders/1pTRT7fA-hq6p1F7ZX5oJ0tg_I1RRG6OW)} |
+| Exchange-Rate | Timeseries | - | Regression | 7,409 | [Exchange-Rate](https://github.com/laiguokun/multivariate-time-series-data) |
+| Electricity | Timeseries | - | Regression | 26,113 | [Electricity](https://github.com/laiguokun/multivariate-time-series-data) |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
