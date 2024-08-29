@@ -1980,7 +1980,7 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2209.04851)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Classification Results on Datasets
+### Classification Results on Datasets
 
 **Mixup methods classification results on general datasets: CIFAR10 \ CIFAR100, TinyImageNet, and ImageNet-1K. $(\cdot)$ denotes training epochs based on ResNet18 (R18), ResNet50 (R50), ResNeXt50 (RX50), PreActResNet18 (PreActR18), and Wide-ResNet28 (WRN28-10, WRN28-8).**
 
@@ -2035,7 +2035,7 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2209.04851)]
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Related Datasets Link
+### Related Datasets Link
 
 **Summary of datasets for mixup methods tasks. Link to dataset websites is provided.**
 
