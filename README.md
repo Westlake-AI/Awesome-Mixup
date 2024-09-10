@@ -2009,6 +2009,10 @@ IEEE TNNLS'2023 [[Paper](https://ieeexplore.ieee.org/abstract/document/10158722)
 *Humza Naveed, Saeed Anwar, Munawar Hayat, Kashif Javed, Ajmal Mian*<br>
 EAAI'2024 [[Paper](https://arxiv.org/abs/2106.07085)]
 
+* **A Survey on Mixup Augmentations and Beyond**<br>
+*Xin Jin, Hongyu Zhu, Siyuan Li, Zedong Wang, Zecheng Liu, Chang Yu, Huafeng Qin, Stan. Z. Li*<br>
+arXiv'2024 [[Paper](https://arxiv.org/abs/2409.05202)]
+
 ## Benchmark
 
 * **OpenMixup: A Comprehensive Mixup Benchmark for Visual Classification**<br>
@@ -2175,3 +2179,4 @@ This repository is built using the [OpenMixup](https://github.com/Westlake-AI/op
 - [awesome-mixup](https://github.com/demoleiwang/awesome-mixup): A collection of awesome papers about mixup.
 - [awesome-mixed-sample-data-augmentation](https://github.com/JasonZhang156/awesome-mixed-sample-data-augmentation): A collection of awesome things about mixed sample data augmentation.
 - [data-augmentation-review](https://github.com/AgaMiko/data-augmentation-review): List of useful data augmentation resources.
+- [Awesome-Mixup](https://arxiv.org/abs/2409.05202): An awesome list of papers for `A Survey on Mixup Augmentations and Beyond`.
