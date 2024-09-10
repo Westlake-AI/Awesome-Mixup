@@ -7,10 +7,15 @@
 
 **We summarize awesome mixup data augmentation methods for visual representation learning in various scenarios.**
 
-The list of awesome mixup augmentation methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/docs/en/awesome_mixups) in [OpenMixup](https://github.com/Westlake-AI/openmixup) and [Awesome-Mix](https://github.com/ChengtaiCao/Awesome-Mix), and we are working on a comperhensive survey on mixup augmentations. We first summarize fundamental mixup methods from two aspects: *sample mixup policy* and *label mixup policy*. Then, we summarize mixup techniques for self- and semi-supervised learning and various downstream tasks.
+The list of awesome mixup augmentation methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/docs/en/awesome_mixups) in [OpenMixup](https://github.com/Westlake-AI/openmixup) and [Awesome-Mix](https://github.com/ChengtaiCao/Awesome-Mix), and we are working on a comperhensive survey on mixup augmentations. You can read our survey: [**A Survey on Mixup Augmentations and Beyond**](https://arxiv.org/abs/2409.05202) see more detailed information.
 
 * To find related papers and their relationships, check out [Connected Papers](https://www.connectedpapers.com/), which visualizes the academic field in a graph representation.
 * To export BibTeX citations of papers, check out [ArXiv](https://arxiv.org/) or [Semantic Scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/d611eef1-90d3-472d-acde-3b52e1005aa6" width=75% height=75% 
+class="center">
+</p>
 
 ## Table of Contents
 
