@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/b13d34e3-55e8-4bfa-b592-86922563d372" width=75% height=75% 
+<img src="https://github.com/user-attachments/assets/b13d34e3-55e8-4bfa-b592-86922563d372" width=90% height=90% 
 class="center">
 </p>
 
@@ -11,12 +11,26 @@ class="center">
 
 ## Introduction
 
-**We summarize awesome mixup data augmentation methods for visual representation learning in various scenarios.**
+**We summarize awesome mixup data augmentation methods for visual representation learning in various scenarios from 2018 to 2024.**
 
 The list of awesome mixup augmentation methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/docs/en/awesome_mixups) in [OpenMixup](https://github.com/Westlake-AI/openmixup) and [Awesome-Mix](https://github.com/ChengtaiCao/Awesome-Mix), and we are working on a comperhensive survey on mixup augmentations. You can read our survey: [**A Survey on Mixup Augmentations and Beyond**](https://arxiv.org/abs/2409.05202) see more detailed information.
 
 * To find related papers and their relationships, check out [Connected Papers](https://www.connectedpapers.com/), which visualizes the academic field in a graph representation.
 * To export BibTeX citations of papers, check out [ArXiv](https://arxiv.org/) or [Semantic Scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/32dd37e1-0b49-4ddb-a253-fc176a241253" width=90% height=90% 
+class="center">
+</p>
+
+## Figuer of Contents
+
+You can see the figuer of mixup augmentation methods deirtly that we summarized.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/366a6def-9193-4c8b-ac3f-b220e3102f4e" width=90% height=90% 
+class="center">
+</p>
 
 ## Table of Contents
 
@@ -73,6 +87,11 @@ The list of awesome mixup augmentation methods is summarized in chronological or
   - [Related Project](#related-project)
 
 ### Sample Mixup Policies in SL
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/16482af9-90c2-4413-87e5-e0df70a7a0cc" width=100% height=100% 
+class="center">
+</p>
 
 #### **Static Linear**
 
@@ -641,6 +660,11 @@ CVPR'2024 [[Paper](https://arxiv.org/abs/2405.14881)]
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Label Mixup Policies in SL
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/214c6969-6b69-48db-99b6-ffe276eb4ca4" width=100% height=100% 
+class="center">
+</p>
 
 ### **Optimizing Calibration**
 
@@ -1443,6 +1467,14 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2401.03989)]
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## Other Applications
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/06c614aa-86ee-4ac7-a2b9-83c3c9fb2087" width=100% height=100% 
+class="center">
+</p>
+
 
 ## Training Paradigms
 
