@@ -1,5 +1,11 @@
 # Awesome-Mixup
 
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/b13d34e3-55e8-4bfa-b592-86922563d372" width=75% height=75% 
+class="center">
+</p>
+
  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/Westlake-AI/Awesome-Mixup?color=green) ![GitHub forks](https://img.shields.io/github/forks/Westlake-AI/Awesome-Mixup?color=yellow&label=Fork)
  <!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=Westlake-AI/Awesome-Mixup) -->
 
@@ -11,11 +17,6 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 
 * To find related papers and their relationships, check out [Connected Papers](https://www.connectedpapers.com/), which visualizes the academic field in a graph representation.
 * To export BibTeX citations of papers, check out [ArXiv](https://arxiv.org/) or [Semantic Scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/b13d34e3-55e8-4bfa-b592-86922563d372" width=75% height=75% 
-class="center">
-</p>
 
 ## Table of Contents
 
