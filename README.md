@@ -13,7 +13,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 * To export BibTeX citations of papers, check out [ArXiv](https://arxiv.org/) or [Semantic Scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/d611eef1-90d3-472d-acde-3b52e1005aa6" width=75% height=75% 
+<img src="https://github.com/user-attachments/assets/117cbc05-b8f1-48a1-b454-6f99b70dbce0" width=75% height=75% 
 class="center">
 </p>
 
