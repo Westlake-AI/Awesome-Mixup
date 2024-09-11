@@ -2139,7 +2139,7 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2209.04851)]
 | UCF101 | Video | 101 | Action Recognition | 13,320 | [UCF101](https://www.crcv.ucf.edu/research/data-sets/ucf101/) |
 | Kinetics400 | Video | 400 | Action Recognition | 260,000 | [Kinetics400](https://deepmind.google/) |
 | Airfoil | Tabular | - | Regression | 1,503 | [Airfoil](https://archive.ics.uci.edu/dataset/291/airfoil+self+noise) |
-| NO2 | Tabular | - | Regression | 500 | [NO2](https://drive.google.com/drive/folders/1pTRT7fA-hq6p1F7ZX5oJ0tg_I1RRG6OW)} |
+| NO2 | Tabular | - | Regression | 500 | [NO2](https://drive.google.com/drive/folders/1pTRT7fA-hq6p1F7ZX5oJ0tg_I1RRG6OW) |
 | Exchange-Rate | Timeseries | - | Regression | 7,409 | [Exchange-Rate](https://github.com/laiguokun/multivariate-time-series-data) |
 | Electricity | Timeseries | - | Regression | 26,113 | [Electricity](https://github.com/laiguokun/multivariate-time-series-data) |
 
