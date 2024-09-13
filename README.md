@@ -9,6 +9,10 @@ class="center">
  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/Westlake-AI/Awesome-Mixup?color=green) ![GitHub forks](https://img.shields.io/github/forks/Westlake-AI/Awesome-Mixup?color=yellow&label=Fork)
  <!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=Westlake-AI/Awesome-Mixup) -->
 
+Welcome to Awesome-Mixup, a carefully curated survey of **Mixup** algorithms implemented in the PyTorch library, aiming to meet various needs of the research community. **Mixup** is a kind of methods that focus on alleviating model overfitting and poor generalization. As a *"data-centric"* way, Mixup can be applied to various training paradigms and data modalities.
+
+If this repository has been helpful to you, please consider giving it a ⭐️ to show your support. Your support helps us reach more researchers and contributes to the growth of this resource. Thank you! 
+
 ## Introduction
 
 **We summarize awesome mixup data augmentation methods for visual representation learning in various scenarios from 2018 to 2024.**
@@ -2157,6 +2161,19 @@ PUBLISH'YEAR [[Paper](link)] [[Code](link)]
    <summary>ABBREVIATION Framework</summary>
    <p align="center"><img width="90%" src="link_to_image" /></p>
    </details>
+```
+
+## Citation
+
+If you feel that our work has contributed to your research, please cite it, thanks. 🥰
+
+```markdown
+@article{jin2024survey,
+  title={A Survey on Mixup Augmentations and Beyond},
+  author={Jin, Xin and Zhu, Hongyu and Li, Siyuan and Wang, Zedong and Liu, Zicheng and Yu, Chang and Qin, Huafeng and Li, Stan Z},
+  journal={arXiv preprint arXiv:2409.05202},
+  year={2024}
+}
 ```
 
 Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)), Xin Jin ([@JinXins](https://github.com/JinXins)), Zicheng Liu ([@pone7](https://github.com/pone7)), and Zedong Wang ([@Jacky1128](https://github.com/Jacky1128)). We thank all contributors for `Awesome-Mixup`!
