@@ -1641,6 +1641,11 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2312.12334)]
 *Efthymios Georgiou, Yannis Avrithis, Alexandros Potamianos*<br>
 CVPR'2024 [[Paper](https://arxiv.org/abs/2403.19600)]
 [[Code](https://github.com/Zhicaiwww/Diff-Mix)]
+
+* **Frequency-Enhanced Data Augmentation for Vision-and-Language Navigation**<br>
+*Keji He, Chenyang Si, Zhihe Lu, Yan Huang, Liang Wang, Xinchao Wang*<br>
+NIPS'2023 [[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/0d9e08f247ca7fbbfd5e50b7ff9cf357-Paper-Conference.pdf)]
+[[Code](https://github.com/hekj/FDA)]
    
 <p align="right">(<a href="#top">back to top</a>)</p>
 
