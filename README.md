@@ -1639,7 +1639,7 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2312.12334)]
 
 * **Enhance image classification via inter-class image mixup with diffusion model**<br>
 *Efthymios Georgiou, Yannis Avrithis, Alexandros Potamianos*<br>
-CVPR'2024 [[Paper](https://arxiv.org/abs/2312.12334)]
+CVPR'2024 [[Paper](https://arxiv.org/abs/2403.19600)]
 [[Code](https://github.com/Zhicaiwww/Diff-Mix)]
    
 <p align="right">(<a href="#top">back to top</a>)</p>
