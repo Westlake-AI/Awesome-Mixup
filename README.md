@@ -38,6 +38,17 @@ class="center">
 
 ## Table of Contents
 
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#catalog">Catalog</a></li>
+    <li><a href="#image-classification">Image Classification</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgement">Acknowledgement</a></li>
+    <li><a href="#citation">Citation</a></li>
+  </ol>
+</details>
+
 - [Awesome-Mixup](#awesome-mixup)
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
