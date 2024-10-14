@@ -41,65 +41,90 @@ class="center">
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#catalog">Catalog</a></li>
-    <li><a href="#image-classification">Image Classification</a></li>
+<!--     <li><a href="#sample-mixup-policies-in-sl">Sample Mixup Policies in SL</a></li> -->
+   <details>
+     <summary>Sample Mixup Policies in SL</summary>
+     <ol>
+        <li><a href="#static-linear">Static Linear</a></li>
+        <li><a href="#feature-based">Feature-based</a></li>
+        <li><a href="#cutting-based">Cutting-based</a></li>
+        <li><a href="#k-samples-mixup">K Samples Mixup</a></li>
+        <li><a href="#random-policies">Random Policies</a></li>
+        <li><a href="#style-based">Style-based</a></li>
+        <li><a href="#saliency-based">Saliency-based</a></li>
+        <li><a href="#attention-based">Attention-based</a></li>
+        <li><a href="#generating-samples">Generating Samples</a></li>
+     </ol>
+   </details>
+   <details>
+     <summary>Label Mixup Policies in SL</summary>
+     <ol>
+        <li><a href="#optimizing-calibration">Optimizing Calibration</a></li>
+        <li><a href="#area-based">Area-based</a></li>
+        <li><a href="#loss-object">Loss Object</a></li>
+        <li><a href="#random-label-policies">Random Label Policies</a></li>
+        <li><a href="#optimizing-mixing-ratio">Optimizing Mixing Ratio</a></li>
+        <li><a href="#generating-label">Generating Label</a></li>
+        <li><a href="#attention-score">Attention Score</a></li>
+        <li><a href="#saliency-token">Saliency Token</a></li>
+     </ol>
+   </details>
+<!--     <li><a href="#label-mixup-policies-in-sl">Label Mixup Policies in SL</a></li> -->
+<!--     <li><a href="#self-supervised-learning">Self-Supervised Learning</a></li> -->
+    <details>
+     <summary>Self-Supervised Learning</summary>
+      <ol>
+         <li><a href="#contrastive-learning">Contrastive Learning</a></li>
+         <li><a href="#masked-image-modeling">Masked Image Modeling</a></li>
+      </ol>
+   </details>
+   <details>
+     <summary>Semi-Supervised Learning</summary>
+      <ol>
+         <li><a href="#semi-supervised-learning">Semi-Supervised Learning</a></li>
+      </ol>
+   </details>
+<!--     <li><a href="#semi-supervised-learning">Semi-Supervised Learning</a></li> -->
+<!--     <li><a href="#cv-downstream-tasks">CV Downstream Tasks</a></li> -->
+   <details>
+     <summary>CV Downstream Tasks</summary>
+      <ol>
+         <li><a href="#regression">Regression</a></li>
+         <li><a href="#long-tail-distribution">Long tail distribution</a></li>
+         <li><a href="#segmentation">Segmentation</a></li>
+         <li><a href="#object-detection">Object Detection</a></li>
+      </ol>
+   </details>
+   <details>
+     <summary>Training Paradigms</summary>
+      <ol>
+         <li><a href="#federated-learning">Federated Learning</a></li>
+         <li><a href="#adversarial-attack-and-adversarial-training">Adversarial Attack and Adversarial Training</a></li>
+         <li><a href="#domain-adaption">Domain Adaption</a></li>
+         <li><a href="#knowledge-distillation">Knowledge Distillation</a></li>
+         <li><a href="#multi-modal">Multi Modal</a></li>
+      </ol>
+   </details>
+   <details>
+     <summary>Beyond Vision</summary>
+      <ol>
+         <li><a href="#nlp">NLP</a></li>
+         <li><a href="#gnn">GNN</a></li>
+         <li><a href="#3d-point">3D Point</a></li>
+         <li><a href="#other">Other</a></li>
+      </ol>
+   </details>
+    <li><a href="#analysis-and-theorem">Analysis and Theorem</a></li>
+    <li><a href="#survey">Survey</a></li>
+    <li><a href="#benchmark">Benchmark</a></li>
+    <li><a href="#classification-results-on-datasets">Classification Results on Datasets</a></li>
+    <li><a href="#related-datasets-link">Related Datasets Link</a></li>
+    <li><a href="#contribution">Contribution</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgement">Acknowledgement</a></li>
-    <li><a href="#citation">Citation</a></li>
+    <li><a href="#related-project">Related Project</a></li>
   </ol>
 </details>
-
-- [Awesome-Mixup](#awesome-mixup)
-  - [Introduction](#introduction)
-  - [Table of Contents](#table-of-contents)
-  - [Sample Mixup Policies in SL](#sample-mixup-policies-in-sl)
-      - [**Static Linear**](#static-linear)
-      - [**Feature-based**](#feature-based)
-      - [**Cutting-based**](#cutting-based)
-      - [**K Samples Mixup**](#k-samples-mixup)
-      - [**Random Policies**](#random-policies)
-      - [**Style-based**](#style-based)
-      - [**Saliency-based**](#saliency-based)
-      - [**Attention-based**](#attention-based)
-      - [**Generating Samples**](#generating-samples)
-  - [Label Mixup Policies in SL](#label-mixup-policies-in-sl)
-      - [**Optimizing Calibration**](#optimizing-calibration)
-      - [**Area-based**](#area-based)
-      - [**Loss Object**](#loss-object)
-      - [**Random Label Policies**](#random-label-policies)
-      - [**Optimizing Mixing Ratio**](#optimizing-mixing-ratio)
-      - [**Generating Label**](#generating-label)
-      - [**Attention Score**](#attention-score)
-      - [**Saliency Token**](#saliency-token)
-  - [Self-Supervised Learning](#self-supervised-learning)
-      - [**Contrastive Learning**](#contrastive-learning)
-      - [**Masked Image Modeling**](#masked-image-modeling)
-  - [Semi-Supervised Learning](#semi-supervised-learning)
-  - [CV Downstream Tasks](#cv-downstream-tasks)
-      - [**Regression**](#regression)
-      - [**Long tail distribution**](#long-tail-distribution)
-      - [**Segmentation**](#segmentation)
-      - [**Object Detection**](#object-detection)
-  - [Training Paradigms](#training-paradigms)
-      - [**Federated Learning**](#federated-learning)
-      - [**Adversarial Attack and Adversarial Training**](#adversarial-attack-and-adversarial-training)
-      - [**Domain Adaption**](#domain-adaption)
-      - [**Knowledge Distillation**](#knowledge-distillation)
-      - [**Multi-Modal**](#multi-modal)
-  - [Beyond Vision](#beyond-vision)
-      - [**NLP**](#nlp)
-      - [**GNN**](#gnn)
-      - [**3D Point**](#3d-point)
-      - [**Other**](#other)
-  - [Analysis and Theorem](#analysis-and-theorem)
-  - [Survey](#survey)
-  - [Benchmark](#benchmark)
-  - [Classification Results on Datasets](#classification-results-on-datasets)
-  - [Related Datasets Link](#related-datasets-link)
-  - [Contribution](#contribution)
-  - [License](#license)
-  - [Acknowledgement](#acknowledgement)
-  - [Related Project](#related-project)
 
 ### Sample Mixup Policies in SL
 
